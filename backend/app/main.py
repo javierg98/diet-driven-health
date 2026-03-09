@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.api.auth import router as auth_router
 from app.database import Base, engine
 
 app = FastAPI(title="Diet Driven Health", version="0.1.0")
@@ -14,6 +15,8 @@ app.add_middleware(
 )
 
 Base.metadata.create_all(bind=engine)
+
+app.include_router(auth_router)
 
 
 @app.get("/health")
