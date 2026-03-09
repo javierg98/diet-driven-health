@@ -30,7 +30,7 @@ export default function MealPlansPage() {
     setGenerating(true);
     setError('');
     try {
-      const res = await generateMealPlan(weekStart);
+      const res = await generateMealPlan({ week_start: weekStart });
       navigate(`/meal-plans/${res.data.id}`);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Failed to generate meal plan';
