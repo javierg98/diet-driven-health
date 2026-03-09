@@ -1,6 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { getMe } from './services/api';
+import Layout from './components/Layout';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
@@ -17,12 +20,23 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50">
-        <Routes>
-          <Route path="/" element={loggedIn ? <div>Dashboard (coming soon)</div> : <Navigate to="/login" />} />
-          <Route path="/login" element={<div>Login (coming soon)</div>} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/login" element={!loggedIn ? <LoginPage /> : <Navigate to="/" />} />
+        <Route path="/register" element={!loggedIn ? <RegisterPage /> : <Navigate to="/" />} />
+        <Route path="/*" element={
+          loggedIn ? (
+            <Layout>
+              <Routes>
+                <Route path="/" element={<div>Dashboard (coming next)</div>} />
+                <Route path="/meal-plans" element={<div>Meal Plans (coming soon)</div>} />
+                <Route path="/recipes" element={<div>Recipes (coming soon)</div>} />
+                <Route path="/history" element={<div>History (coming soon)</div>} />
+                <Route path="/profile" element={<div>Profile (coming soon)</div>} />
+              </Routes>
+            </Layout>
+          ) : <Navigate to="/login" />
+        } />
+      </Routes>
     </BrowserRouter>
   );
 }
