@@ -9,6 +9,7 @@ from app.api.meal_plans import router as meal_plans_router
 from app.api.grocery import router as grocery_router
 from app.api.upload import router as upload_router
 from app.api.food_submission import router as food_router
+from app.api.admin import router as admin_router
 from app.database import Base, SessionLocal, engine
 from app.models.food_entry import FoodEntry  # noqa: F401
 from app.models.food_preference import FoodPreference  # noqa: F401
@@ -34,6 +35,7 @@ app.include_router(meal_plans_router)
 app.include_router(grocery_router)
 app.include_router(upload_router)
 app.include_router(food_router)
+app.include_router(admin_router)
 
 
 @app.on_event("startup")
