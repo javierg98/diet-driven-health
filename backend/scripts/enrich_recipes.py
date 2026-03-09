@@ -3,6 +3,20 @@ import json
 import os
 import re
 
+# Exclusions: ingredient names that contain trigger substrings but are NOT inflammatory
+INFLAMMATORY_EXCLUSIONS = {
+    "almond milk", "coconut milk", "oat milk", "soy milk", "rice milk",
+    "coconut cream", "coconut yogurt", "coconut butter",
+    "butter lettuce", "peanut butter", "almond butter", "cashew butter", "sunflower seed butter",
+    "sweet potato", "sweet potatoes",
+    "black pepper", "black peppercorn", "white pepper", "cracked pepper",
+    "almond flour", "coconut flour", "buckwheat flour", "cassava flour",
+    "tapioca flour", "rice flour", "oat flour",
+    "dairy-free cheese", "vegan cheese",
+    "gluten-free bread", "gluten-free crackers", "gluten-free tortilla",
+    "chili-lime seasoning",
+}
+
 # AIP inflammatory ingredients (penalize autoimmune score)
 INFLAMMATORY = {
     # Nightshades
@@ -94,9 +108,15 @@ def get_ingredient_names(recipe: dict) -> list[str]:
     return [ing["name"].lower().strip() for ing in recipe.get("ingredients", [])]
 
 
+def is_excluded(ingredient_name: str) -> bool:
+    """Check if an ingredient name matches an exclusion pattern."""
+    return any(excl in ingredient_name for excl in INFLAMMATORY_EXCLUSIONS)
+
+
 def score_autoimmune(ingredient_names: list[str]) -> int:
     """Score 1-5 based on AIP criteria."""
     inflammatory_count = sum(1 for name in ingredient_names
+                             if not is_excluded(name)
                              for trigger in INFLAMMATORY if trigger in name)
     anti_count = sum(1 for name in ingredient_names
                      for boost in ANTI_INFLAMMATORY if boost in name)
@@ -151,8 +171,8 @@ def assign_tags(recipe: dict, ingredient_names: list[str]) -> list[str]:
             tags.append("dinner")
 
     # Dietary tags
-    has_gluten = any(g in name for name in ingredient_names for g in ["flour", "bread", "pasta", "wheat", "noodle"])
-    has_dairy = any(d in name for name in ingredient_names for d in ["milk", "cream", "cheese", "butter", "yogurt"])
+    has_gluten = any(g in name for name in ingredient_names if not is_excluded(name) for g in ["flour", "bread", "pasta", "wheat", "noodle"])
+    has_dairy = any(d in name for name in ingredient_names if not is_excluded(name) for d in ["milk", "cream", "cheese", "butter", "yogurt"])
     has_meat = any(m in name for name in ingredient_names for m in ["chicken", "beef", "pork", "lamb", "turkey", "bacon", "ham"])
 
     if not has_gluten:
@@ -163,7 +183,7 @@ def assign_tags(recipe: dict, ingredient_names: list[str]) -> list[str]:
         tags.append("vegetarian")
 
     # Health tags
-    inflammatory_count = sum(1 for name in ingredient_names for t in INFLAMMATORY if t in name)
+    inflammatory_count = sum(1 for name in ingredient_names if not is_excluded(name) for t in INFLAMMATORY if t in name)
     if inflammatory_count == 0:
         tags.append("anti-inflammatory")
 
@@ -248,7 +268,6 @@ def main():
     # Print summary
     scores = [r["autoimmune_score"] for r in enriched]
     avg_score = sum(scores) / len(scores) if scores else 0
-    tags_all = [t for r in enriched for t in r["tags"]]
     print(f"\nEnriched {len(enriched)} recipes")
     print(f"Average autoimmune score: {avg_score:.1f}")
     print(f"Score distribution: {', '.join(f'{s}:{scores.count(s)}' for s in range(1, 6))}")

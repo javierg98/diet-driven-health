@@ -23,9 +23,30 @@ DAIRY = ["milk", "cream", "cheese", "butter", "yogurt"]
 GLUTEN = ["flour", "bread", "pasta", "wheat"]
 INFLAMMATORY = NIGHTSHADES + DAIRY + GLUTEN
 
+# Exclusions: ingredient names that contain trigger substrings but are NOT inflammatory
+INFLAMMATORY_EXCLUSIONS = {
+    "almond milk", "coconut milk", "oat milk", "soy milk", "rice milk",
+    "coconut cream", "coconut yogurt", "coconut butter",
+    "butter lettuce", "peanut butter", "almond butter", "cashew butter", "sunflower seed butter",
+    "sweet potato", "sweet potatoes",
+    "black pepper", "black peppercorn", "white pepper", "cracked pepper",
+    "almond flour", "coconut flour", "buckwheat flour", "cassava flour",
+    "tapioca flour", "rice flour", "oat flour",
+    "dairy-free cheese", "vegan cheese",
+    "gluten-free bread", "gluten-free crackers", "gluten-free tortilla",
+    "chili-lime seasoning",
+}
+
+
+def is_excluded(ingredient_name: str) -> bool:
+    """Check if an ingredient name matches an exclusion pattern."""
+    return any(excl in ingredient_name for excl in INFLAMMATORY_EXCLUSIONS)
+
 
 def ingredient_contains(ingredient_name: str, keywords: list[str]) -> bool:
     name_lower = ingredient_name.lower()
+    if is_excluded(name_lower):
+        return False
     return any(kw in name_lower for kw in keywords)
 
 
@@ -33,16 +54,8 @@ def count_inflammatory(ingredients: list[dict]) -> int:
     count = 0
     for ing in ingredients:
         name = ing.get("name", "").lower()
-        if any(kw in name for kw in INFLAMMATORY):
-            count += 1
-    return count
-
-
-def count_borderline(ingredients: list[dict]) -> int:
-    """Count ingredients that contain nightshades, dairy, or gluten."""
-    count = 0
-    for ing in ingredients:
-        name = ing.get("name", "").lower()
+        if is_excluded(name):
+            continue
         if any(kw in name for kw in INFLAMMATORY):
             count += 1
     return count
@@ -157,6 +170,8 @@ def validate_recipes(recipes: list[dict], auto_fix: bool = False) -> tuple[list,
                 bad = []
                 for ing in ingredients:
                     n = ing.get("name", "").lower()
+                    if is_excluded(n):
+                        continue
                     if any(kw in n for kw in NIGHTSHADES):
                         bad.append(f"{ing['name']} (nightshade)")
                     if any(kw in n for kw in DAIRY):
