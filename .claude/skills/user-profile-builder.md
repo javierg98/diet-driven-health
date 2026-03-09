@@ -27,17 +27,33 @@ ORDER BY dl.date_cooked DESC;
 SELECT id, week_start, days FROM meal_plans ORDER BY week_start DESC;
 ```
 
-4. **Query user profile:**
+4. **Query food preferences for explicit likes/dislikes:**
+
+```sql
+SELECT id, food_name, preference_type, notes, created_at
+FROM food_preferences
+ORDER BY created_at DESC;
+```
+
+5. **Query food entries for additional dish history:**
+
+```sql
+SELECT id, name, ingredients, source_type, created_at
+FROM food_entries
+ORDER BY created_at DESC;
+```
+
+6. **Query user profile:**
 
 ```sql
 SELECT skill_level, health_conditions, health_goals, dietary_restrictions
 FROM user_profiles LIMIT 1;
 ```
 
-5. **Analyze and synthesize the following:**
+7. **Analyze and synthesize the following:**
 
-   - **Favorite ingredients:** From recipes that were rated 4-5 and marked would_make_again=true, extract the most common ingredients. Rank by frequency.
-   - **Disliked ingredients:** From recipes rated 1-2 or would_make_again=false, extract commonly appearing ingredients. These may be ingredients to avoid in recommendations.
+   - **Favorite ingredients:** From recipes that were rated 4-5 and marked would_make_again=true, extract the most common ingredients. Also include foods marked as "like" in `food_preferences` and ingredients from food entries. Rank by frequency.
+   - **Disliked ingredients:** From recipes rated 1-2 or would_make_again=false, extract commonly appearing ingredients. Also include foods marked as "dislike" in `food_preferences`. These may be ingredients to avoid in recommendations.
    - **Preferred cuisines:** From top-rated dish logs (rating >= 4), count cuisine tags. Compare against low-rated logs to find clear preferences.
    - **Cooking time preferences:** Compute average total cooking time for highly-rated dishes vs. all dishes. Determine if the user prefers quick meals or is comfortable with longer cook times.
    - **Rating distribution:** Count logs at each rating level (1-5). Compute overall average rating.
@@ -45,7 +61,7 @@ FROM user_profiles LIMIT 1;
    - **Health score trends:** Track average autoimmune_score of cooked recipes over time (group by week or month). Identify whether the user is trending toward higher or lower autoimmune-friendly meals.
    - **Cooking frequency:** Count dish logs per week. Identify most active cooking days.
 
-6. **Write results** to `backend/app/data/user_memory.json` (create the `data/` directory if it does not exist). Use the following JSON structure:
+8. **Write results** to `backend/app/data/user_memory.json` (create the `data/` directory if it does not exist). Use the following JSON structure:
 
 ```json
 {
@@ -97,7 +113,7 @@ FROM user_profiles LIMIT 1;
 }
 ```
 
-7. **Print a summary** to the console: total logs analyzed, top 3 favorite ingredients, adherence trend, health score trend direction, and average rating.
+9. **Print a summary** to the console: total logs analyzed, top 3 favorite ingredients, adherence trend, health score trend direction, and average rating.
 
 ## Notes
 
