@@ -10,6 +10,7 @@ import RecipeDetailPage from './pages/RecipeDetailPage';
 import MealPlansPage from './pages/MealPlansPage';
 import MealPlanDetailPage from './pages/MealPlanDetailPage';
 import GroceryListPage from './pages/GroceryListPage';
+import DishHistoryPage from './pages/DishHistoryPage';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
@@ -39,7 +40,7 @@ function App() {
                 <Route path="/recipes" element={<RecipesPage />} />
                 <Route path="/recipes/:id" element={<RecipeDetailPage />} />
                 <Route path="/grocery/:planId" element={<GroceryListPage />} />
-                <Route path="/history" element={<div>History (coming soon)</div>} />
+                <Route path="/history" element={<DishHistoryPage />} />
                 <Route path="/profile" element={<div>Profile (coming soon)</div>} />
               </Routes>
             </Layout>
