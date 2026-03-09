@@ -1,4 +1,7 @@
+from datetime import datetime
+
 from pydantic import BaseModel
+
 from app.schemas.recipe import RecipeCreate
 
 
@@ -13,7 +16,7 @@ class FoodEntryResponse(BaseModel):
     description: str
     dish_name: str
     detected_ingredients: list[str]
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
@@ -25,7 +28,7 @@ class FoodPreferenceResponse(BaseModel):
     type: str
     value: str
     category: str
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
