@@ -13,6 +13,7 @@ import GroceryListPage from './pages/GroceryListPage';
 import DishHistoryPage from './pages/DishHistoryPage';
 import ProfilePage from './pages/ProfilePage';
 import FoodSubmissionPage from './pages/FoodSubmissionPage';
+import AdminPage from './pages/AdminPage';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
@@ -45,6 +46,7 @@ function App() {
                 <Route path="/history" element={<DishHistoryPage />} />
                 <Route path="/upload" element={<FoodSubmissionPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
+                <Route path="/admin" element={<AdminPage />} />
               </Routes>
             </Layout>
           ) : <Navigate to="/login" />
