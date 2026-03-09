@@ -5,6 +5,8 @@ import Layout from './components/Layout';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
+import RecipesPage from './pages/RecipesPage';
+import RecipeDetailPage from './pages/RecipeDetailPage';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
@@ -30,7 +32,8 @@ function App() {
               <Routes>
                 <Route path="/" element={<DashboardPage />} />
                 <Route path="/meal-plans" element={<div>Meal Plans (coming soon)</div>} />
-                <Route path="/recipes" element={<div>Recipes (coming soon)</div>} />
+                <Route path="/recipes" element={<RecipesPage />} />
+                <Route path="/recipes/:id" element={<RecipeDetailPage />} />
                 <Route path="/history" element={<div>History (coming soon)</div>} />
                 <Route path="/profile" element={<div>Profile (coming soon)</div>} />
               </Routes>
