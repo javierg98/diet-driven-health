@@ -16337,5 +16337,5888 @@
       "phosphorus": 31
     },
     "source": "seeded"
+  },
+  {
+    "name": "Grilled Fish Tacos with Cabbage Slaw",
+    "description": "Light and flavorful grilled white fish tacos topped with a tangy cabbage slaw and fresh lime.",
+    "ingredients": [
+      {
+        "name": "tilapia fillets",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "green cabbage",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Season tilapia with cumin, garlic powder, salt, and a drizzle of olive oil.",
+      "Grill fish over medium-high heat for 3-4 minutes per side until cooked through.",
+      "Toss shredded cabbage with lime juice and chopped cilantro.",
+      "Warm corn tortillas on the grill for 30 seconds each side.",
+      "Flake fish into tortillas, top with cabbage slaw and sliced avocado."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 10,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 320,
+      "protein": 28,
+      "sodium": 280,
+      "potassium": 520,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Shrimp Ceviche",
+    "description": "Fresh shrimp marinated in citrus juice with cucumber, red onion, and cilantro.",
+    "ingredients": [
+      {
+        "name": "cooked shrimp",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "jalape\u00f1o",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Dice cooked shrimp into bite-sized pieces and place in a bowl.",
+      "Pour lime and lemon juice over shrimp, toss to coat, and refrigerate for 20 minutes.",
+      "Dice cucumber, red onion, and jalape\u00f1o. Chop cilantro.",
+      "Combine shrimp with vegetables, drizzle with olive oil, and season with salt.",
+      "Serve topped with diced avocado."
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 0,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "low-sodium"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 210,
+      "protein": 24,
+      "sodium": 320,
+      "potassium": 400,
+      "phosphorus": 220
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Salmon Tostadas with Avocado Crema",
+    "description": "Crispy corn tostadas topped with seasoned baked salmon and a creamy avocado sauce.",
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "corn tostada shells",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "avocado",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "shredded cabbage",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Season salmon with cumin, garlic powder, salt, and olive oil. Bake at 400\u00b0F for 12-15 minutes.",
+      "Blend avocado with lime juice and a pinch of salt to make crema.",
+      "Flake the baked salmon into large pieces.",
+      "Layer tostada shells with shredded cabbage, salmon, and avocado crema.",
+      "Garnish with cilantro and a squeeze of lime."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "sodium": 310,
+      "potassium": 580,
+      "phosphorus": 290
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chicken Tortilla Soup (Nightshade-Free)",
+    "description": "A warming chicken soup with corn tortilla strips, avocado, and lime, made without tomatoes for autoimmune friendliness.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Saut\u00e9 diced onion and minced garlic in olive oil until softened.",
+      "Add chicken broth, cumin, oregano, and salt. Bring to a boil.",
+      "Add chicken breasts, reduce heat, and simmer for 20 minutes until cooked through.",
+      "Remove chicken, shred with two forks, and return to pot.",
+      "Cut tortillas into strips and bake at 375\u00b0F for 8 minutes until crispy.",
+      "Serve soup topped with tortilla strips, diced avocado, cilantro, and lime juice."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 30,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 310,
+      "protein": 32,
+      "sodium": 480,
+      "potassium": 450,
+      "phosphorus": 240
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Pozole Verde with Chicken",
+    "description": "Traditional Mexican hominy soup in a tangy green tomatillo broth with shredded chicken.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "hominy",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 6.0,
+        "unit": "whole"
+      },
+      {
+        "name": "poblano pepper",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 4.0,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "shredded cabbage",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "radishes",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Simmer chicken thighs in broth with half the onion and garlic for 25 minutes. Shred chicken.",
+      "Roast tomatillos and poblano under the broiler until charred, about 8 minutes.",
+      "Blend roasted tomatillos, poblano, remaining onion, garlic, and cilantro until smooth.",
+      "Add green sauce and hominy to the broth, simmer for 15 minutes.",
+      "Return shredded chicken to pot and season with oregano and salt.",
+      "Serve topped with shredded cabbage, sliced radishes, and lime wedges."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 45,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 350,
+      "protein": 30,
+      "sodium": 520,
+      "potassium": 480,
+      "phosphorus": 270
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Caldo de Pollo",
+    "description": "Classic Mexican chicken soup with vegetables, a nourishing comfort food staple.",
+    "ingredients": [
+      {
+        "name": "chicken drumsticks",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "carrots",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chayote",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn on the cob",
+        "quantity": 2.0,
+        "unit": "ears"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "quantity": 10.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Place chicken, quartered onion, and whole garlic in a large pot. Cover with water and bring to a boil.",
+      "Skim any foam, reduce heat, and simmer for 30 minutes.",
+      "Cut carrots, zucchini, chayote, and corn into large chunks. Add to pot.",
+      "Simmer another 20 minutes until vegetables are tender.",
+      "Season with salt and serve with fresh cilantro and lime wedges."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 50,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "low-sodium",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 280,
+      "protein": 26,
+      "sodium": 350,
+      "potassium": 520,
+      "phosphorus": 210
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Black Bean Burrito Bowl",
+    "description": "A hearty bowl with seasoned black beans, rice, avocado, and fresh toppings.",
+    "ingredients": [
+      {
+        "name": "black beans",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn kernels",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "romaine lettuce",
+        "quantity": 2.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Cook brown rice according to package directions.",
+      "Heat black beans with cumin, garlic powder, and salt in a saucepan.",
+      "Dice red onion and avocado. Mix corn with lime juice and cilantro.",
+      "Assemble bowls: rice, beans, lettuce, corn salsa, avocado, and onion.",
+      "Drizzle with olive oil and extra lime juice."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 420,
+      "protein": 16,
+      "sodium": 280,
+      "potassium": 650,
+      "phosphorus": 200
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Bean and Rice Casserole",
+    "description": "A comforting baked casserole with layers of seasoned beans, rice, and green chiles.",
+    "ingredients": [
+      {
+        "name": "pinto beans",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "white rice",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "green chiles",
+        "quantity": 4.0,
+        "unit": "oz"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Cook rice and set aside. Saut\u00e9 diced onion and garlic in olive oil.",
+      "Add beans, green chiles, cumin, oregano, and broth to the pan. Simmer 10 minutes.",
+      "Layer rice and bean mixture in a baking dish.",
+      "Bake at 375\u00b0F for 20 minutes until bubbly.",
+      "Garnish with fresh cilantro before serving."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 14,
+      "sodium": 420,
+      "potassium": 500,
+      "phosphorus": 190
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Carne Asada Salad",
+    "description": "Grilled marinated steak sliced over a bed of crisp greens with avocado and lime dressing.",
+    "ingredients": [
+      {
+        "name": "flank steak",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "romaine lettuce",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "radishes",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Marinate steak with lime juice, olive oil, cumin, garlic powder, and salt for at least 30 minutes.",
+      "Grill steak over high heat for 4-5 minutes per side for medium. Let rest 5 minutes.",
+      "Chop romaine, dice cucumber and radishes, slice red onion.",
+      "Slice steak thinly against the grain.",
+      "Arrange salad, top with steak and sliced avocado, drizzle with extra lime and olive oil."
+    ],
+    "prep_time_minutes": 40,
+    "cook_time_minutes": 10,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "lunch",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 32,
+      "sodium": 350,
+      "potassium": 620,
+      "phosphorus": 260
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Grilled Chicken Fajitas (Nightshade-Free)",
+    "description": "Sizzling grilled chicken with onions and squash, served in warm tortillas without bell peppers.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Slice chicken into strips and marinate with lime juice, olive oil, cumin, oregano, garlic powder, and salt.",
+      "Slice zucchini and onions into strips.",
+      "Grill chicken strips over high heat for 5-6 minutes per side.",
+      "Grill vegetables alongside until charred and tender, about 8 minutes.",
+      "Warm tortillas on the grill and serve with chicken, veggies, avocado, and cilantro."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 360,
+      "protein": 35,
+      "sodium": 320,
+      "potassium": 550,
+      "phosphorus": 270
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Carnitas Lettuce Wraps",
+    "description": "Tender slow-cooked pork carnitas served in crisp butter lettuce cups with pickled onion.",
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "butter lettuce",
+        "quantity": 1.0,
+        "unit": "head"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "orange juice",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "red onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "apple cider vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Season pork with cumin, oregano, and salt. Place in slow cooker with onion, garlic, and orange juice.",
+      "Cook on low for 8 hours or high for 4 hours until falling apart.",
+      "Quick-pickle red onion slices in vinegar with a pinch of salt for 30 minutes.",
+      "Shred pork and crisp under the broiler for 5 minutes.",
+      "Serve in lettuce cups topped with pickled onion, cilantro, and lime."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 240,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "low-sodium"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 340,
+      "protein": 30,
+      "sodium": 380,
+      "potassium": 450,
+      "phosphorus": 240
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Enchiladas Verdes (Tomatillo Sauce)",
+    "description": "Corn tortillas filled with shredded chicken and bathed in a tangy tomatillo green sauce.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 12,
+        "unit": "pieces"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "jalape\u00f1o",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Poach chicken breast in water until cooked, about 20 minutes. Shred.",
+      "Roast tomatillos, onion half, garlic, and jalape\u00f1o under broiler until charred.",
+      "Blend roasted vegetables with cilantro, broth, and salt until smooth.",
+      "Dip tortillas in warm sauce, fill with chicken, and roll. Place seam-down in baking dish.",
+      "Pour remaining sauce over enchiladas and bake at 375\u00b0F for 15 minutes.",
+      "Serve topped with sliced avocado."
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 40,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 350,
+      "protein": 30,
+      "sodium": 450,
+      "potassium": 480,
+      "phosphorus": 260
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chile Verde with Pork",
+    "description": "Tender braised pork in a bright, tangy green chile sauce with tomatillos.",
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "poblano peppers",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Cut pork into 1-inch cubes. Brown in olive oil in a Dutch oven, then remove.",
+      "Roast tomatillos and poblanos under the broiler until blistered.",
+      "Blend roasted vegetables with onion, garlic, cilantro, and broth.",
+      "Return pork to pot, pour green sauce over, add cumin and oregano.",
+      "Simmer covered for 1.5 hours until pork is very tender.",
+      "Stir in lime juice and adjust salt before serving."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 100,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 380,
+      "protein": 34,
+      "sodium": 450,
+      "potassium": 520,
+      "phosphorus": 270
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chilaquiles Verdes",
+    "description": "Crispy tortilla chips simmered in green tomatillo salsa, topped with eggs and avocado.",
+    "ingredients": [
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 0.75,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "jalape\u00f1o",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "crumbled queso fresco",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Cut tortillas into triangles and fry in oil until crispy. Drain on paper towels.",
+      "Roast tomatillos, onion, garlic, and jalape\u00f1o. Blend with cilantro and salt.",
+      "Simmer salsa in a skillet, add tortilla chips, and toss to coat.",
+      "Fry eggs sunny-side up in a separate pan.",
+      "Serve chilaquiles topped with fried eggs, avocado slices, and crumbled queso."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "breakfast",
+      "gluten-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 420,
+      "protein": 18,
+      "sodium": 380,
+      "potassium": 480,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Huevos Rancheros (Nightshade-Free)",
+    "description": "Fried eggs on corn tortillas with a roasted tomatillo-avocado sauce instead of traditional tomato salsa.",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "black beans",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.25,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic clove",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Roast tomatillos, onion, and garlic under the broiler. Blend with avocado, cilantro, lime, and salt.",
+      "Warm black beans in a small saucepan with a splash of water.",
+      "Warm tortillas in a dry skillet until pliable.",
+      "Fry eggs in olive oil to desired doneness.",
+      "Place tortillas on plates, spread with beans, top with eggs, and spoon sauce over."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 2,
+    "tags": [
+      "mexican",
+      "breakfast",
+      "gluten-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 440,
+      "protein": 22,
+      "sodium": 350,
+      "potassium": 580,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Breakfast Scramble",
+    "description": "Fluffy scrambled eggs with zucchini, onion, and fresh herbs, served with warm tortillas.",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 6.0,
+        "unit": "whole"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Dice zucchini and onion. Saut\u00e9 in olive oil until softened, about 5 minutes.",
+      "Beat eggs with cumin and salt. Pour over vegetables.",
+      "Scramble gently over medium-low heat until just set.",
+      "Serve with warm tortillas, sliced avocado, and cilantro."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "difficulty": "beginner",
+    "servings": 3,
+    "tags": [
+      "mexican",
+      "breakfast",
+      "gluten-free",
+      "dairy-free",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 320,
+      "protein": 20,
+      "sodium": 280,
+      "potassium": 420,
+      "phosphorus": 220
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Guacamole Power Bowl",
+    "description": "A satisfying bowl built around fresh guacamole with rice, beans, and grilled chicken.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "avocado",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "black beans",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Season chicken with cumin and salt, grill for 6 minutes per side. Slice.",
+      "Cook brown rice according to package directions.",
+      "Mash avocados with lime juice, diced onion, cilantro, and salt.",
+      "Warm black beans in a saucepan.",
+      "Assemble bowls with rice, beans, chicken, and a generous scoop of guacamole."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 480,
+      "protein": 34,
+      "sodium": 380,
+      "potassium": 700,
+      "phosphorus": 300
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Elote-Inspired Corn Salad",
+    "description": "A deconstructed Mexican street corn salad with charred corn, lime, and a creamy avocado dressing.",
+    "ingredients": [
+      {
+        "name": "corn kernels",
+        "quantity": 3.0,
+        "unit": "cups"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.25,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "chili powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "romaine lettuce",
+        "quantity": 4.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Char corn in a hot skillet with olive oil until blackened in spots, about 8 minutes.",
+      "Blend half the avocado with lime juice and a splash of water for the dressing.",
+      "Toss charred corn with diced onion, cilantro, cumin, and chili powder.",
+      "Arrange romaine on plates and top with corn mixture.",
+      "Drizzle with avocado dressing and top with remaining diced avocado."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "side",
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 250,
+      "protein": 6,
+      "sodium": 180,
+      "potassium": 450,
+      "phosphorus": 130
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Street Corn Soup",
+    "description": "Creamy roasted corn soup inspired by elote flavors, with lime and fresh herbs.",
+    "ingredients": [
+      {
+        "name": "corn kernels",
+        "quantity": 4.0,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 4.0,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Roast corn, diced onion, and garlic in olive oil over high heat until charred.",
+      "Transfer to a pot, add broth, cumin, and salt. Simmer for 15 minutes.",
+      "Blend half the soup until smooth, return to pot for a chunky-creamy texture.",
+      "Stir in coconut milk and lime juice.",
+      "Serve garnished with cilantro."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 240,
+      "protein": 6,
+      "sodium": 380,
+      "potassium": 420,
+      "phosphorus": 140
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Simplified Chicken Mole",
+    "description": "A rich and complex mole sauce with dark chocolate and warm spices over tender chicken.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "ancho chile",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "dark chocolate",
+        "quantity": 1.0,
+        "unit": "oz"
+      },
+      {
+        "name": "sesame seeds",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon stick",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      }
+    ],
+    "instructions": [
+      "Toast ancho chiles in a dry skillet, then soak in hot water for 15 minutes.",
+      "Saut\u00e9 diced onion and garlic in olive oil until golden.",
+      "Blend soaked chiles, onion, garlic, sesame seeds, cumin, broth, and chocolate until smooth.",
+      "Brown chicken thighs in the pot, pour mole sauce over.",
+      "Simmer covered for 35 minutes until chicken is very tender.",
+      "Serve with warm corn tortillas."
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 50,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 420,
+      "protein": 34,
+      "sodium": 480,
+      "potassium": 520,
+      "phosphorus": 290
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Birria-Style Beef Stew",
+    "description": "A deeply flavorful slow-braised beef stew with warm dried chiles and aromatic spices.",
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "quantity": 2.5,
+        "unit": "lb"
+      },
+      {
+        "name": "guajillo chiles",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "ancho chiles",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 5.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "apple cider vinegar",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "beef broth",
+        "quantity": 3.0,
+        "unit": "cups"
+      },
+      {
+        "name": "bay leaves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "quantity": 2.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Toast dried chiles in a dry pan, soak in hot water for 15 minutes.",
+      "Blend chiles with onion, garlic, cumin, oregano, cloves, vinegar, and a cup of broth.",
+      "Cut beef into large chunks, season with salt, and brown in a heavy pot.",
+      "Pour chile sauce over beef, add remaining broth and bay leaves.",
+      "Braise covered at 325\u00b0F for 3 hours until beef is fall-apart tender.",
+      "Serve with fresh cilantro and lime wedges."
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 195,
+    "difficulty": "advanced",
+    "servings": 8,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 380,
+      "protein": 38,
+      "sodium": 520,
+      "potassium": 480,
+      "phosphorus": 280
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Albondigas Soup",
+    "description": "Comforting Mexican meatball soup with herbs and vegetables in a light broth.",
+    "ingredients": [
+      {
+        "name": "ground turkey",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "white rice",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "egg",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "carrots",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 8.0,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Mix ground turkey with cooked rice, egg, minced garlic, cumin, half the cilantro, and salt. Form into 1-inch balls.",
+      "Bring broth to a simmer with diced onion and oregano.",
+      "Gently add meatballs to simmering broth. Cook 10 minutes.",
+      "Add diced carrots and zucchini. Simmer another 15 minutes.",
+      "Serve topped with cilantro and lime wedges."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 280,
+      "protein": 24,
+      "sodium": 450,
+      "potassium": 440,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Nopales Salad",
+    "description": "A refreshing salad made with tender cactus paddles, tomato, onion, and fresh herbs.",
+    "ingredients": [
+      {
+        "name": "nopales",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "roma tomatoes",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "white onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "jalape\u00f1o",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Clean nopales by trimming spines and edges. Cut into strips.",
+      "Boil nopales in salted water for 10 minutes until tender. Drain and rinse to remove slime.",
+      "Dice tomatoes, onion, and jalape\u00f1o. Chop cilantro.",
+      "Toss nopales with vegetables, lime juice, olive oil, oregano, and salt.",
+      "Top with sliced avocado and serve at room temperature."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 12,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "side",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "low-sodium",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 160,
+      "protein": 4,
+      "sodium": 180,
+      "potassium": 400,
+      "phosphorus": 80
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chayote and Chicken Stew",
+    "description": "A light and nourishing Mexican stew with tender chayote squash and chicken in herbed broth.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "chayote",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "carrots",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 5.0,
+        "unit": "cups"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Brown chicken thighs in olive oil. Remove and set aside.",
+      "Saut\u00e9 diced onion and garlic in the same pot until softened.",
+      "Add broth, cumin, oregano, and salt. Return chicken and bring to a simmer.",
+      "Peel and cube chayote and carrots. Add to pot and simmer 25 minutes.",
+      "Shred chicken, return to pot, stir in lime juice and cilantro."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 40,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 290,
+      "protein": 28,
+      "sodium": 400,
+      "potassium": 480,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Calabacitas (Mexican Squash Saut\u00e9)",
+    "description": "A simple and traditional side dish of saut\u00e9ed zucchini with corn and onion.",
+    "ingredients": [
+      {
+        "name": "zucchini",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn kernels",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Dice zucchini into half-inch cubes. Dice onion and mince garlic.",
+      "Saut\u00e9 onion and garlic in olive oil until fragrant, about 3 minutes.",
+      "Add zucchini and corn. Cook over medium heat for 8-10 minutes until tender.",
+      "Season with cumin and salt, finish with lime juice and cilantro."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 12,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "side",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "low-sodium",
+      "kidney-friendly",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 130,
+      "protein": 4,
+      "sodium": 120,
+      "potassium": 380,
+      "phosphorus": 90
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Arroz con Pollo",
+    "description": "Classic Mexican chicken and rice cooked together in a savory herbed broth.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "long grain rice",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 2.5,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "carrots",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "frozen peas",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Brown chicken thighs in olive oil, then remove and set aside.",
+      "Saut\u00e9 diced onion, garlic, and diced carrots in the same pot.",
+      "Add rice and toast for 2 minutes, stirring constantly.",
+      "Pour in broth, cumin, oregano, and salt. Nestle chicken on top.",
+      "Cover and cook on low heat for 25 minutes until rice is fluffy and chicken is cooked.",
+      "Stir in peas, cover for 5 minutes, garnish with cilantro."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 440,
+      "protein": 32,
+      "sodium": 480,
+      "potassium": 500,
+      "phosphorus": 280
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Rice and Beans",
+    "description": "Fluffy seasoned rice with tender pinto beans, a staple side that works as a complete meal.",
+    "ingredients": [
+      {
+        "name": "long grain rice",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "pinto beans",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 2.5,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Saut\u00e9 diced onion and garlic in olive oil until softened.",
+      "Add rice and toast for 2 minutes. Add cumin and oregano.",
+      "Pour in broth and salt. Bring to a boil, cover, reduce heat, simmer 18 minutes.",
+      "Warm pinto beans in a separate pan.",
+      "Fluff rice, fold in beans, finish with lime juice and cilantro."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "side",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 350,
+      "protein": 12,
+      "sodium": 320,
+      "potassium": 480,
+      "phosphorus": 180
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chicken Sopes",
+    "description": "Thick corn masa bases topped with refried beans, shredded chicken, and fresh garnishes.",
+    "ingredients": [
+      {
+        "name": "masa harina",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "water",
+        "quantity": 1.25,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "refried beans",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "shredded cabbage",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Mix masa harina with warm water and salt to form dough. Divide into 8 balls, flatten into thick discs.",
+      "Cook masa discs on a hot griddle for 3 minutes each side. Pinch up edges to form a rim.",
+      "Season chicken with cumin and grill until cooked. Shred.",
+      "Spread refried beans on each sope, top with shredded chicken.",
+      "Garnish with cabbage, avocado, cilantro, and lime juice."
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 20,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "lunch",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 400,
+      "protein": 28,
+      "sodium": 420,
+      "potassium": 520,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chicken and Green Chile Tamales",
+    "description": "Traditional steamed masa tamales filled with seasoned chicken and roasted green chiles.",
+    "ingredients": [
+      {
+        "name": "masa harina",
+        "quantity": 3.0,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "green chiles",
+        "quantity": 4.0,
+        "unit": "oz"
+      },
+      {
+        "name": "dried corn husks",
+        "quantity": 20,
+        "unit": "pieces"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking powder",
+        "quantity": 1.0,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Soak corn husks in hot water for 30 minutes. Poach and shred chicken.",
+      "Mix masa harina with broth, olive oil, salt, and baking powder until a soft dough forms.",
+      "Mix shredded chicken with green chiles, cumin, and garlic powder.",
+      "Spread masa on corn husks, add a spoonful of filling, fold and tie.",
+      "Steam tamales upright in a steamer pot for 45 minutes until masa pulls away from husk."
+    ],
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 50,
+    "difficulty": "advanced",
+    "servings": 10,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 300,
+      "protein": 18,
+      "sodium": 420,
+      "potassium": 300,
+      "phosphorus": 180
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Dairy-Free Chicken Quesadillas",
+    "description": "Crispy corn tortilla quesadillas filled with seasoned chicken and dairy-free cheese.",
+    "ingredients": [
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "dairy-free cheese shreds",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Season chicken with cumin, garlic powder, and salt. Grill and shred.",
+      "Saut\u00e9 diced zucchini and onion in olive oil until tender.",
+      "Place tortillas on a griddle, add chicken, vegetables, and dairy-free cheese to one half.",
+      "Fold and cook until crispy on both sides and cheese melts.",
+      "Serve with sliced avocado and lime wedges."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "sodium": 350,
+      "potassium": 440,
+      "phosphorus": 240
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Baked Chicken Flautas",
+    "description": "Crispy rolled corn tortillas filled with seasoned shredded chicken, baked instead of fried.",
+    "ingredients": [
+      {
+        "name": "corn tortillas",
+        "quantity": 12,
+        "unit": "pieces"
+      },
+      {
+        "name": "chicken breast",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "shredded cabbage",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Poach chicken, shred, and mix with saut\u00e9ed onion, garlic, cumin, oregano, broth, and salt.",
+      "Warm tortillas briefly to make them pliable.",
+      "Place filling in each tortilla and roll tightly. Place seam-down on a baking sheet.",
+      "Brush with olive oil and bake at 425\u00b0F for 18-20 minutes until golden and crispy.",
+      "Serve with shredded cabbage, avocado slices, and lime."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 25,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 340,
+      "protein": 30,
+      "sodium": 400,
+      "potassium": 420,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Churro-Spiced Sweet Potato Bites",
+    "description": "Roasted sweet potato cubes tossed with cinnamon-sugar churro seasoning, a healthy snack.",
+    "ingredients": [
+      {
+        "name": "sweet potatoes",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "coconut oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "coconut sugar",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Peel sweet potatoes and cut into 1-inch cubes.",
+      "Toss with melted coconut oil, cinnamon, coconut sugar, vanilla, and salt.",
+      "Spread on a baking sheet in a single layer.",
+      "Roast at 400\u00b0F for 25-30 minutes, flipping halfway, until caramelized and tender."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 30,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "snack",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 180,
+      "protein": 3,
+      "sodium": 120,
+      "potassium": 450,
+      "phosphorus": 70
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Fruit Salad with Chile-Lime Dressing",
+    "description": "A vibrant mix of tropical fruits with a tangy chile-lime dressing, a refreshing side or snack.",
+    "ingredients": [
+      {
+        "name": "mango",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "pineapple",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "watermelon",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "jicama",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chili powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh mint",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Dice mango, pineapple, watermelon, cucumber, and jicama into bite-sized pieces.",
+      "Combine all fruit in a large bowl.",
+      "Whisk lime juice, chili powder, and salt together.",
+      "Drizzle dressing over fruit and toss gently. Garnish with mint."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 0,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "snack",
+      "side",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "low-sodium",
+      "kidney-friendly",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 120,
+      "protein": 2,
+      "sodium": 80,
+      "potassium": 340,
+      "phosphorus": 40
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Breakfast Tacos with Eggs and Avocado",
+    "description": "Simple corn tortilla tacos filled with scrambled eggs, avocado, and a squeeze of lime.",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 6.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 6,
+        "unit": "pieces"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.25,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Scramble eggs with cumin and salt in olive oil. Add diced onion halfway through.",
+      "Warm corn tortillas on a dry griddle.",
+      "Fill tortillas with scrambled eggs and sliced avocado.",
+      "Top with cilantro and a squeeze of lime."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 8,
+    "difficulty": "beginner",
+    "servings": 3,
+    "tags": [
+      "mexican",
+      "breakfast",
+      "gluten-free",
+      "dairy-free",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 350,
+      "protein": 18,
+      "sodium": 260,
+      "potassium": 420,
+      "phosphorus": 210
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Sopa de Fideo",
+    "description": "A light and comforting Mexican noodle soup with toasted vermicelli in a savory broth.",
+    "ingredients": [
+      {
+        "name": "fideo noodles",
+        "quantity": 7.0,
+        "unit": "oz"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Toast fideo noodles in olive oil until golden brown, stirring constantly.",
+      "Blend tomatillos, onion, and garlic until smooth.",
+      "Add blended sauce to the pot with noodles and cook for 2 minutes.",
+      "Pour in chicken broth, cumin, and salt. Simmer for 10 minutes until noodles are tender.",
+      "Serve with cilantro and lime wedges."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "soup",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 220,
+      "protein": 8,
+      "sodium": 480,
+      "potassium": 280,
+      "phosphorus": 110
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Black Bean Soup",
+    "description": "A hearty and smoky black bean soup with cumin and topped with avocado and lime.",
+    "ingredients": [
+      {
+        "name": "dried black beans",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Soak beans overnight, drain and rinse.",
+      "Saut\u00e9 diced onion and garlic in olive oil until softened.",
+      "Add beans, broth, cumin, oregano, and salt. Bring to a boil.",
+      "Reduce heat and simmer for 1.5 hours until beans are very tender.",
+      "Blend half the soup for a creamy-chunky texture.",
+      "Serve topped with avocado, cilantro, and lime juice."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 100,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 290,
+      "protein": 16,
+      "sodium": 350,
+      "potassium": 620,
+      "phosphorus": 180
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Sopa de Lima (Yucatan Lime Soup)",
+    "description": "A fragrant Yucatecan soup with shredded chicken, fried tortilla strips, and lots of lime.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "limes",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Simmer chicken in broth with half the onion and garlic for 20 minutes. Shred chicken.",
+      "Saut\u00e9 remaining diced onion and garlic in olive oil until fragrant.",
+      "Add broth back, along with oregano and the juice of 3 limes.",
+      "Cut tortillas into strips and bake at 400\u00b0F until crispy.",
+      "Return shredded chicken to soup and simmer 5 minutes.",
+      "Serve with tortilla strips, avocado, cilantro, and remaining lime wedges."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 30,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 300,
+      "protein": 28,
+      "sodium": 420,
+      "potassium": 440,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Omelette",
+    "description": "A fluffy omelette filled with black beans, avocado, and fresh cilantro.",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "black beans",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.25,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 1.0,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Beat eggs with salt and cumin.",
+      "Heat olive oil in a nonstick pan over medium heat.",
+      "Pour in eggs and cook until edges set. Lift edges to let uncooked egg flow under.",
+      "When almost set, add black beans and diced onion to one half.",
+      "Fold omelette, slide onto plate, top with avocado, cilantro, and lime."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 5,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": [
+      "mexican",
+      "breakfast",
+      "gluten-free",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 20,
+      "sodium": 300,
+      "potassium": 480,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Molletes",
+    "description": "Open-faced Mexican bean and cheese toasts, adapted with dairy-free cheese for autoimmune friendliness.",
+    "ingredients": [
+      {
+        "name": "bolillo rolls",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "refried beans",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "dairy-free cheese shreds",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "pico de gallo",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.125,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Slice bolillo rolls in half lengthwise and toast lightly under the broiler.",
+      "Spread a generous layer of refried beans on each half.",
+      "Top with dairy-free cheese shreds.",
+      "Broil for 3-4 minutes until cheese melts and beans are bubbly.",
+      "Serve topped with diced avocado and pico de gallo."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 8,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "breakfast",
+      "lunch",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 360,
+      "protein": 14,
+      "sodium": 480,
+      "potassium": 400,
+      "phosphorus": 170
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Grilled Steak Tacos",
+    "description": "Tender grilled skirt steak in warm corn tortillas with fresh onion, cilantro, and lime.",
+    "ingredients": [
+      {
+        "name": "skirt steak",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "white onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Season steak with cumin, garlic powder, salt, and olive oil. Rest 15 minutes.",
+      "Grill over high heat for 3-4 minutes per side for medium.",
+      "Let steak rest 5 minutes, then slice thinly against the grain.",
+      "Warm tortillas on the grill.",
+      "Serve steak in tortillas with diced onion, cilantro, and lime wedges."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 10,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 360,
+      "protein": 30,
+      "sodium": 380,
+      "potassium": 440,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chicken Tinga",
+    "description": "Shredded chicken braised in a smoky chipotle-tomatillo sauce, served over rice or in tacos.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chipotle in adobo",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      }
+    ],
+    "instructions": [
+      "Poach chicken in water for 20 minutes, then shred.",
+      "Roast tomatillos under the broiler. Blend with chipotle, garlic, and broth.",
+      "Saut\u00e9 sliced onion in olive oil until caramelized.",
+      "Add shredded chicken and sauce to the onions. Simmer 15 minutes.",
+      "Serve in warm tortillas or over rice."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 40,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 320,
+      "protein": 32,
+      "sodium": 450,
+      "potassium": 460,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Shrimp Tacos with Mango Salsa",
+    "description": "Seasoned grilled shrimp tacos topped with a bright mango and cilantro salsa.",
+    "ingredients": [
+      {
+        "name": "large shrimp",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "mango",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.25,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "shredded cabbage",
+        "quantity": 1.0,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Peel and devein shrimp. Toss with cumin, garlic powder, salt, and olive oil.",
+      "Dice mango and red onion. Mix with cilantro and lime juice for salsa.",
+      "Grill shrimp for 2-3 minutes per side until pink and curled.",
+      "Warm tortillas on the grill.",
+      "Assemble tacos with shredded cabbage, shrimp, and mango salsa."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 8,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "low-sodium"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 290,
+      "protein": 26,
+      "sodium": 300,
+      "potassium": 420,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Pork Tamales with Red Chile Sauce",
+    "description": "Traditional pork-filled tamales in a rich ancho and guajillo chile sauce.",
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "masa harina",
+        "quantity": 3.0,
+        "unit": "cups"
+      },
+      {
+        "name": "ancho chiles",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "guajillo chiles",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pork broth",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "dried corn husks",
+        "quantity": 20,
+        "unit": "pieces"
+      },
+      {
+        "name": "salt",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking powder",
+        "quantity": 1.0,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Braise pork shoulder in water with garlic and salt until tender, about 2 hours. Shred.",
+      "Toast and soak dried chiles. Blend with garlic, cumin, oregano, and broth for sauce.",
+      "Mix masa harina with broth, olive oil, baking powder, and salt until fluffy.",
+      "Soak corn husks. Spread masa on husks, add pork and a spoonful of chile sauce.",
+      "Fold husks and steam for 45 minutes until masa firms up."
+    ],
+    "prep_time_minutes": 40,
+    "cook_time_minutes": 165,
+    "difficulty": "advanced",
+    "servings": 10,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 320,
+      "protein": 20,
+      "sodium": 450,
+      "potassium": 320,
+      "phosphorus": 200
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Taco Salad Bowl",
+    "description": "A crunchy and fresh salad bowl with seasoned ground turkey, beans, and creamy avocado dressing.",
+    "ingredients": [
+      {
+        "name": "ground turkey",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "romaine lettuce",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "black beans",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "corn kernels",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "onion powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Brown ground turkey with cumin, garlic powder, onion powder, and salt.",
+      "Blend half the avocado with lime juice and water for a creamy dressing.",
+      "Chop romaine and divide among bowls.",
+      "Top with seasoned turkey, black beans, corn, and diced avocado.",
+      "Drizzle with avocado dressing and garnish with cilantro."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 12,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "sodium": 420,
+      "potassium": 600,
+      "phosphorus": 270
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Chicken Pozole Rojo",
+    "description": "A vibrant red pozole with chicken, hominy, and a rich dried chile broth.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "hominy",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "guajillo chiles",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "ancho chile",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 5.0,
+        "unit": "cups"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "shredded cabbage",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "radishes",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Simmer chicken in broth with half the onion for 25 minutes. Shred chicken.",
+      "Toast dried chiles, soak in hot water for 15 minutes.",
+      "Blend chiles with garlic, remaining onion, cumin, and soaking liquid.",
+      "Strain sauce into the broth. Add hominy and shredded chicken.",
+      "Simmer 20 minutes. Season with oregano and salt.",
+      "Serve with cabbage, radishes, and lime wedges."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 50,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 360,
+      "protein": 30,
+      "sodium": 500,
+      "potassium": 460,
+      "phosphorus": 260
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Grilled Tilapia with Cilantro-Lime Rice",
+    "description": "Seasoned grilled tilapia served alongside fluffy cilantro-lime rice and black beans.",
+    "ingredients": [
+      {
+        "name": "tilapia fillets",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "long grain rice",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "black beans",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "lime zest",
+        "quantity": 1.0,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Cook rice according to package. Fluff and stir in chopped cilantro, lime juice, and zest.",
+      "Season tilapia with cumin, garlic powder, salt, and olive oil.",
+      "Grill fish for 3-4 minutes per side until flaky.",
+      "Warm black beans in a small saucepan.",
+      "Serve fish over cilantro-lime rice with beans on the side."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 390,
+      "protein": 32,
+      "sodium": 340,
+      "potassium": 500,
+      "phosphorus": 270
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Stuffed Sweet Potatoes",
+    "description": "Baked sweet potatoes loaded with black beans, corn, avocado, and a cilantro-lime drizzle.",
+    "ingredients": [
+      {
+        "name": "sweet potatoes",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "black beans",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "corn kernels",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.25,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Bake sweet potatoes at 400\u00b0F for 45-50 minutes until very tender.",
+      "Warm black beans with cumin and salt.",
+      "Mix corn with diced red onion, cilantro, and lime juice.",
+      "Split sweet potatoes and fluff the insides.",
+      "Stuff with beans, corn mixture, and sliced avocado. Drizzle with olive oil."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 50,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "lunch",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 340,
+      "protein": 12,
+      "sodium": 220,
+      "potassium": 680,
+      "phosphorus": 160
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Shrimp Aguachile",
+    "description": "Raw shrimp cured in a fiery lime-chile sauce with cucumber and red onion.",
+    "ingredients": [
+      {
+        "name": "large shrimp",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "serrano chile",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Butterfly shrimp and lay flat on a plate.",
+      "Blend lime juice, serrano chiles, cilantro stems, and salt until smooth.",
+      "Pour sauce over shrimp and refrigerate for 20 minutes until shrimp turns opaque.",
+      "Slice cucumber and red onion very thin.",
+      "Arrange shrimp with cucumber and onion, top with avocado and cilantro leaves."
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 0,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "low-sodium"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 200,
+      "protein": 24,
+      "sodium": 340,
+      "potassium": 380,
+      "phosphorus": 220
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Sopa Azteca (Aztec Tortilla Soup)",
+    "description": "A smoky, rich tortilla soup with pasilla chiles and crispy tortilla strips.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "pasilla chile",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "lime",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Toast pasilla chiles in a dry pan. Soak in hot water for 10 minutes.",
+      "Roast tomatillos, onion, and garlic. Blend with soaked chiles.",
+      "Simmer chicken in broth for 20 minutes, shred.",
+      "Add blended sauce to broth with chicken. Simmer 15 minutes.",
+      "Cut tortillas into strips and bake until crispy.",
+      "Serve soup with tortilla strips, avocado, cilantro, and lime."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 40,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 310,
+      "protein": 28,
+      "sodium": 440,
+      "potassium": 460,
+      "phosphorus": 240
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Enfrijoladas",
+    "description": "Corn tortillas dipped in a silky black bean sauce, filled with crumbled cheese and onion.",
+    "ingredients": [
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      },
+      {
+        "name": "black beans",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "crumbled queso fresco",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Blend black beans with broth, saut\u00e9ed onion, garlic, cumin, and salt until smooth.",
+      "Heat bean sauce in a wide pan until simmering.",
+      "Dip tortillas briefly in the warm bean sauce to soften.",
+      "Fill with a little queso and onion, fold into thirds.",
+      "Arrange on plates, spoon more sauce over, top with avocado and cilantro."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "lunch",
+      "gluten-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 360,
+      "protein": 18,
+      "sodium": 400,
+      "potassium": 560,
+      "phosphorus": 200
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Picadillo",
+    "description": "A savory-sweet ground beef hash with potatoes, carrots, and warm spices.",
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "carrots",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      }
+    ],
+    "instructions": [
+      "Brown ground beef in olive oil, breaking into small pieces. Drain excess fat.",
+      "Add diced onion and garlic, cook until softened.",
+      "Add diced potatoes and carrots, cumin, oregano, and salt.",
+      "Add a splash of water, cover, and simmer for 20 minutes until vegetables are tender.",
+      "Serve with warm corn tortillas and cilantro."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 380,
+      "protein": 24,
+      "sodium": 400,
+      "potassium": 540,
+      "phosphorus": 230
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Cochinita Pibil-Style Pork",
+    "description": "Yucatecan slow-roasted pork marinated in citrus and achiote, served with pickled onion.",
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "achiote paste",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "orange juice",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "red onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "apple cider vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "banana leaves",
+        "quantity": 2.0,
+        "unit": "pieces"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 8,
+        "unit": "pieces"
+      }
+    ],
+    "instructions": [
+      "Blend achiote paste with orange juice, lime juice, garlic, cumin, oregano, and salt.",
+      "Marinate pork in the mixture for at least 2 hours or overnight.",
+      "Wrap pork in banana leaves, place in a Dutch oven.",
+      "Braise at 300\u00b0F for 3.5 hours until fall-apart tender.",
+      "Quick-pickle sliced red onion in vinegar with salt.",
+      "Shred pork and serve in tortillas with pickled onion."
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 210,
+    "difficulty": "advanced",
+    "servings": 8,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 380,
+      "protein": 32,
+      "sodium": 420,
+      "potassium": 440,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Green Enchilada Soup",
+    "description": "A creamy and tangy soup with all the flavors of enchiladas verdes in a comforting bowl.",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 0.75,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 5.0,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut cream",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "corn tortillas",
+        "quantity": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "avocado",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Roast tomatillos, onion, and garlic under the broiler until charred.",
+      "Simmer chicken in broth for 20 minutes, then shred.",
+      "Blend roasted vegetables with a cup of broth until smooth.",
+      "Add green sauce to the pot with remaining broth, cumin, oregano, and salt.",
+      "Stir in coconut cream and shredded chicken. Simmer 10 minutes.",
+      "Serve with crispy tortilla strips, avocado, cilantro, and lime."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 330,
+      "protein": 28,
+      "sodium": 440,
+      "potassium": 500,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Camarones al Mojo de Ajo",
+    "description": "Succulent shrimp saut\u00e9ed in a buttery garlic sauce with lime, a Mexican coastal classic.",
+    "ingredients": [
+      {
+        "name": "large shrimp",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 10.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried chile de arbol",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "white rice",
+        "quantity": 2.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Slice garlic cloves thinly. Cook very slowly in olive oil over low heat until golden and crispy.",
+      "Remove garlic chips and set aside. Increase heat to medium-high.",
+      "Add shrimp and dried chiles to the garlic oil. Cook 2-3 minutes per side.",
+      "Squeeze lime juice over shrimp and toss with garlic chips.",
+      "Serve over rice with cilantro and extra lime."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mexican",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 32,
+      "sodium": 380,
+      "potassium": 400,
+      "phosphorus": 270
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mexican Lentil Soup (Sopa de Lentejas)",
+    "description": "A humble and nourishing lentil soup with cumin, cilantro, and a squeeze of lime.",
+    "ingredients": [
+      {
+        "name": "brown lentils",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "carrots",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Saut\u00e9 diced onion, garlic, and carrots in olive oil until softened.",
+      "Add lentils, cumin, oregano, and salt. Stir for a minute.",
+      "Pour in broth, bring to a boil, then reduce heat and simmer 30 minutes.",
+      "Lentils should be very tender. Mash some against the side of the pot for thickness.",
+      "Stir in lime juice, serve topped with cilantro."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 35,
+    "difficulty": "beginner",
+    "servings": 6,
+    "tags": [
+      "mexican",
+      "lunch",
+      "dinner",
+      "soup",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 280,
+      "protein": 18,
+      "sodium": 380,
+      "potassium": 540,
+      "phosphorus": 200
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "AIP Shakshuka with Beet Sauce",
+    "description": "A nightshade-free take on shakshuka using roasted beet sauce with poached eggs and fresh herbs.",
+    "ingredients": [
+      {
+        "name": "beets",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "eggs",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      "Roast beets at 400\u00b0F wrapped in foil for 45 minutes. Peel and blend until smooth.",
+      "Saut\u00e9 diced onion and garlic in olive oil until softened.",
+      "Add beet puree, cumin, turmeric, and salt. Simmer 10 minutes.",
+      "Make 4 wells in the sauce and crack an egg into each.",
+      "Cover and cook for 6-8 minutes until egg whites are set but yolks are runny.",
+      "Garnish with parsley and lemon juice."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 60,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": [
+      "mediterranean",
+      "breakfast",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 280,
+      "protein": 16,
+      "sodium": 380,
+      "potassium": 600,
+      "phosphorus": 200
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Greek Lemon Chicken with Potatoes",
+    "description": "Roasted chicken pieces with crispy potatoes in a bright lemon-oregano sauce.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 0.33,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 5.0,
+        "unit": "whole"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Cut potatoes into wedges and arrange in a roasting pan.",
+      "Whisk lemon juice, olive oil, minced garlic, oregano, broth, salt, and pepper.",
+      "Nestle chicken thighs among the potatoes. Pour lemon sauce over everything.",
+      "Roast at 425\u00b0F for 50 minutes, basting halfway, until chicken is golden.",
+      "Garnish with parsley and serve with pan juices."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 50,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mediterranean",
+      "dinner",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 440,
+      "protein": 34,
+      "sodium": 480,
+      "potassium": 680,
+      "phosphorus": 300
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Baked Falafel Bowls",
+    "description": "Crispy baked chickpea falafel served in bowls with greens, cucumber, and tahini dressing.",
+    "ingredients": [
+      {
+        "name": "canned chickpeas",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mixed greens",
+        "quantity": 4.0,
+        "unit": "cups"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "tahini",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Pulse chickpeas, parsley, onion, garlic, cumin, coriander, and salt in a food processor until coarsely ground.",
+      "Form into small patties and place on an oiled baking sheet.",
+      "Bake at 400\u00b0F for 25 minutes, flipping halfway, until golden and crispy.",
+      "Whisk tahini with lemon juice and water until smooth for dressing.",
+      "Assemble bowls with greens, sliced cucumber, falafel, and tahini drizzle."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 25,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 16,
+      "sodium": 380,
+      "potassium": 480,
+      "phosphorus": 220
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mediterranean Hummus Power Bowl",
+    "description": "A nourishing bowl built around creamy hummus with roasted vegetables and grains.",
+    "ingredients": [
+      {
+        "name": "canned chickpeas",
+        "quantity": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "tahini",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic clove",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "kalamata olives",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Blend chickpeas, tahini, lemon juice, garlic, cumin, salt, and olive oil until very smooth.",
+      "Cook quinoa according to package directions and let cool slightly.",
+      "Dice cucumber and halve cherry tomatoes.",
+      "Spoon hummus into bowls. Top with quinoa, vegetables, and olives.",
+      "Drizzle with olive oil and garnish with parsley."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 440,
+      "protein": 18,
+      "sodium": 420,
+      "potassium": 540,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Lamb Kofta with Herb Yogurt",
+    "description": "Spiced ground lamb kebabs grilled on skewers with a cool herbed yogurt sauce.",
+    "ingredients": [
+      {
+        "name": "ground lamb",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 3.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh mint",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coconut yogurt",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Mix ground lamb with grated onion, garlic, cumin, coriander, parsley, and salt.",
+      "Shape into oval kofta around skewers.",
+      "Grill over medium-high heat for 4-5 minutes per side until cooked through.",
+      "Mix coconut yogurt with diced cucumber, mint, lemon juice, and a pinch of salt.",
+      "Serve kofta with herb yogurt sauce."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 12,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "dinner",
+      "gluten-free"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 380,
+      "protein": 28,
+      "sodium": 400,
+      "potassium": 420,
+      "phosphorus": 260
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Grilled Mediterranean Fish with Herbs",
+    "description": "Whole grilled sea bass or branzino with lemon, fresh herbs, and olive oil.",
+    "ingredients": [
+      {
+        "name": "sea bass fillets",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "lemon",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh rosemary",
+        "quantity": 3.0,
+        "unit": "sprigs"
+      },
+      {
+        "name": "fresh thyme",
+        "quantity": 4.0,
+        "unit": "sprigs"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "capers",
+        "quantity": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "mixed greens",
+        "quantity": 4.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Score fish fillets with shallow diagonal cuts.",
+      "Rub with olive oil, salt, and minced garlic. Tuck herb sprigs alongside.",
+      "Grill over medium heat for 5-6 minutes per side until fish flakes easily.",
+      "Squeeze lemon juice over fish and scatter capers on top.",
+      "Serve on a bed of mixed greens with extra lemon wedges."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 12,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory",
+      "low-sodium",
+      "kidney-friendly"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 300,
+      "protein": 38,
+      "sodium": 340,
+      "potassium": 520,
+      "phosphorus": 280
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Cauliflower Rice Tabbouleh",
+    "description": "A grain-free take on classic tabbouleh using riced cauliflower, packed with fresh herbs and lemon.",
+    "ingredients": [
+      {
+        "name": "cauliflower",
+        "quantity": 1.0,
+        "unit": "head"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 2.0,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh mint",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "green onions",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Pulse cauliflower in a food processor until rice-sized. Spread on a towel and squeeze dry.",
+      "Finely chop parsley, mint, cucumber, and green onions.",
+      "Toss cauliflower rice with herbs, cucumber, and halved cherry tomatoes.",
+      "Dress with lemon juice, olive oil, and salt.",
+      "Let sit 10 minutes for flavors to meld before serving."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 0,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "lunch",
+      "side",
+      "gluten-free",
+      "dairy-free",
+      "vegan",
+      "low-sodium",
+      "kidney-friendly",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 5,
+    "nutrition": {
+      "calories": 140,
+      "protein": 5,
+      "sodium": 180,
+      "potassium": 420,
+      "phosphorus": 80
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Stuffed Grape Leaves (Dolmas)",
+    "description": "Tender grape leaves filled with herbed rice, pine nuts, and lemon, served warm or cold.",
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "quantity": 30,
+        "unit": "pieces"
+      },
+      {
+        "name": "long grain rice",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "pine nuts",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh dill",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh mint",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "quantity": 2.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Saut\u00e9 diced onion in olive oil. Add rice and toast 2 minutes.",
+      "Stir in pine nuts, dill, mint, lemon juice, and salt. Let cool.",
+      "Lay a grape leaf flat, place a spoonful of filling near the stem end.",
+      "Fold sides in and roll tightly. Arrange snugly in a pot.",
+      "Add water, weight with a plate, and simmer 45 minutes until rice is tender.",
+      "Serve warm or at room temperature with extra lemon."
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 50,
+    "difficulty": "advanced",
+    "servings": 6,
+    "tags": [
+      "mediterranean",
+      "side",
+      "lunch",
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 180,
+      "protein": 4,
+      "sodium": 280,
+      "potassium": 200,
+      "phosphorus": 80
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Moroccan Chicken Tagine with Preserved Lemon",
+    "description": "A fragrant slow-cooked chicken stew with olives, preserved lemon, and warm spices.",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 2.0,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 4.0,
+        "unit": "whole"
+      },
+      {
+        "name": "preserved lemon",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "green olives",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "ground ginger",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "quantity": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "saffron threads",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Season chicken with ginger, turmeric, cinnamon, saffron, and salt.",
+      "Brown chicken in olive oil, then remove.",
+      "Saut\u00e9 sliced onions and garlic until very soft and golden.",
+      "Return chicken, add broth, chopped preserved lemon, and olives.",
+      "Cover and simmer for 40 minutes until chicken is very tender.",
+      "Garnish with fresh cilantro and serve with couscous or rice."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 50,
+    "difficulty": "intermediate",
+    "servings": 6,
+    "tags": [
+      "mediterranean",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 400,
+      "protein": 34,
+      "sodium": 520,
+      "potassium": 480,
+      "phosphorus": 280
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Baba Ganoush Bowl",
+    "description": "Smoky roasted eggplant dip served as a bowl base with grilled chicken, veggies, and herbs.",
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "chicken breast",
+        "quantity": 1.0,
+        "unit": "lb"
+      },
+      {
+        "name": "tahini",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "mixed greens",
+        "quantity": 2.0,
+        "unit": "cups"
+      }
+    ],
+    "instructions": [
+      "Char whole eggplants over a flame or under the broiler until collapsed and smoky.",
+      "Scoop out flesh and mash with tahini, lemon juice, garlic, cumin, and salt.",
+      "Season chicken with olive oil and salt. Grill for 6 minutes per side and slice.",
+      "Dice cucumber and halve cherry tomatoes.",
+      "Spoon baba ganoush into bowls, top with greens, chicken, and vegetables.",
+      "Drizzle with olive oil and garnish with parsley."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "lunch",
+      "dinner",
+      "gluten-free",
+      "dairy-free",
+      "anti-inflammatory"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 380,
+      "protein": 32,
+      "sodium": 380,
+      "potassium": 560,
+      "phosphorus": 250
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Mediterranean Grain Bowl with Lemon Vinaigrette",
+    "description": "A colorful grain bowl with farro, roasted vegetables, olives, and a bright lemon dressing.",
+    "ingredients": [
+      {
+        "name": "farro",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "red onion",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "kalamata olives",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh basil",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic clove",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried oregano",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Cook farro in salted water for 25 minutes until tender. Drain and cool.",
+      "Toss sliced zucchini and red onion with olive oil. Roast at 425\u00b0F for 20 minutes.",
+      "Whisk lemon juice, olive oil, minced garlic, oregano, and salt for dressing.",
+      "Combine farro, roasted vegetables, halved tomatoes, diced cucumber, and olives.",
+      "Toss with dressing and top with fresh basil."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 30,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "lunch",
+      "dinner",
+      "dairy-free",
+      "vegan"
+    ],
+    "autoimmune_score": 4,
+    "nutrition": {
+      "calories": 340,
+      "protein": 10,
+      "sodium": 350,
+      "potassium": 400,
+      "phosphorus": 180
+    },
+    "source": "seeded"
+  },
+  {
+    "name": "Spanakopita-Inspired Spinach Rice Bowl",
+    "description": "All the flavors of spanakopita in a bowl \u2014 spinach, dill, lemon, and feta over rice.",
+    "ingredients": [
+      {
+        "name": "fresh spinach",
+        "quantity": 6.0,
+        "unit": "cups"
+      },
+      {
+        "name": "long grain rice",
+        "quantity": 1.0,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 1.0,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic cloves",
+        "quantity": 2.0,
+        "unit": "whole"
+      },
+      {
+        "name": "fresh dill",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pine nuts",
+        "quantity": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "egg",
+        "quantity": 1.0,
+        "unit": "whole"
+      }
+    ],
+    "instructions": [
+      "Cook rice and set aside.",
+      "Saut\u00e9 diced onion and garlic in olive oil until softened.",
+      "Add spinach and wilt completely. Stir in dill and lemon juice.",
+      "Beat egg and fold into the warm spinach mixture off heat.",
+      "Serve spinach mixture over rice, topped with crumbled feta and toasted pine nuts."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "difficulty": "beginner",
+    "servings": 4,
+    "tags": [
+      "mediterranean",
+      "lunch",
+      "dinner"
+    ],
+    "autoimmune_score": 3,
+    "nutrition": {
+      "calories": 360,
+      "protein": 14,
+      "sodium": 420,
+      "potassium": 480,
+      "phosphorus": 200
+    },
+    "source": "seeded"
   }
 ]
