@@ -19,9 +19,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link to="/" className="text-gray-600 hover:text-green-700">Dashboard</Link>
             <Link to="/meal-plans" className="text-gray-600 hover:text-green-700">Meal Plans</Link>
             <Link to="/recipes" className="text-gray-600 hover:text-green-700">Recipes</Link>
-            <Link to="/upload" className="text-gray-600 hover:text-green-700">Upload</Link>
+            <Link to="/upload" className="text-gray-600 hover:text-green-700">Food Submission</Link>
             <Link to="/history" className="text-gray-600 hover:text-green-700">History</Link>
             <Link to="/profile" className="text-gray-600 hover:text-green-700">Profile</Link>
+            <Link to="/admin" className="text-gray-600 hover:text-green-700">Admin</Link>
             <button onClick={handleLogout} className="text-red-500 hover:text-red-700">Logout</button>
           </div>
         </div>
