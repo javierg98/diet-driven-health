@@ -9,6 +9,7 @@ from app.api.meal_plans import router as meal_plans_router
 from app.api.grocery import router as grocery_router
 from app.api.upload import router as upload_router
 from app.database import Base, SessionLocal, engine
+from app.models.food_entry import FoodEntry  # noqa: F401
 from app.services.seed import seed_database
 
 app = FastAPI(title="Diet Driven Health", version="0.1.0")
