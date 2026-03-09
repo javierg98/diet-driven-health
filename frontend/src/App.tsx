@@ -4,6 +4,7 @@ import { getMe } from './services/api';
 import Layout from './components/Layout';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
+import DashboardPage from './pages/DashboardPage';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
@@ -27,7 +28,7 @@ function App() {
           loggedIn ? (
             <Layout>
               <Routes>
-                <Route path="/" element={<div>Dashboard (coming next)</div>} />
+                <Route path="/" element={<DashboardPage />} />
                 <Route path="/meal-plans" element={<div>Meal Plans (coming soon)</div>} />
                 <Route path="/recipes" element={<div>Recipes (coming soon)</div>} />
                 <Route path="/history" element={<div>History (coming soon)</div>} />
