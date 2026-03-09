@@ -7,6 +7,7 @@ from app.api.recipes import router as recipes_router
 from app.api.dish_log import router as dish_log_router
 from app.api.meal_plans import router as meal_plans_router
 from app.api.grocery import router as grocery_router
+from app.api.upload import router as upload_router
 from app.database import Base, SessionLocal, engine
 from app.services.seed import seed_database
 
@@ -28,6 +29,7 @@ app.include_router(recipes_router)
 app.include_router(dish_log_router)
 app.include_router(meal_plans_router)
 app.include_router(grocery_router)
+app.include_router(upload_router)
 
 
 @app.on_event("startup")
