@@ -1,0 +1,732 @@
+[
+  {
+    "name": "Turmeric Ginger Oatmeal",
+    "description": "Warm anti-inflammatory oatmeal with turmeric, ginger, and blueberries.",
+    "ingredients": [
+      {"name": "rolled oats", "quantity": 0.5, "unit": "cup"},
+      {"name": "water", "quantity": 1.0, "unit": "cup"},
+      {"name": "ground turmeric", "quantity": 0.5, "unit": "tsp"},
+      {"name": "ground ginger", "quantity": 0.25, "unit": "tsp"},
+      {"name": "blueberries", "quantity": 0.25, "unit": "cup"},
+      {"name": "honey", "quantity": 1.0, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Bring water to a boil in a small saucepan.",
+      "Add oats, turmeric, and ginger. Stir well.",
+      "Reduce heat and simmer for 5 minutes, stirring occasionally.",
+      "Top with blueberries and drizzle with honey."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "breakfast", "dairy-free"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 220, "protein": 6, "sodium": 5, "potassium": 200, "phosphorus": 150},
+    "source": "seeded"
+  },
+  {
+    "name": "Berry Spinach Smoothie",
+    "description": "A refreshing smoothie packed with antioxidants and leafy greens.",
+    "ingredients": [
+      {"name": "fresh spinach", "quantity": 1.0, "unit": "cup"},
+      {"name": "mixed berries", "quantity": 0.75, "unit": "cup"},
+      {"name": "almond milk", "quantity": 1.0, "unit": "cup"},
+      {"name": "ground flaxseed", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "ice cubes", "quantity": 4.0, "unit": "pieces"}
+    ],
+    "instructions": [
+      "Add almond milk and spinach to blender. Blend until smooth.",
+      "Add berries, flaxseed, and ice cubes.",
+      "Blend on high until fully combined and creamy.",
+      "Pour into glass and serve immediately."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 0,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "breakfast"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 150, "protein": 5, "sodium": 120, "potassium": 380, "phosphorus": 120},
+    "source": "seeded"
+  },
+  {
+    "name": "Sweet Potato Breakfast Hash",
+    "description": "A hearty kidney-friendly breakfast hash with sweet potatoes and fresh herbs.",
+    "ingredients": [
+      {"name": "sweet potato", "quantity": 1.0, "unit": "medium"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "red bell pepper", "quantity": 0.5, "unit": "cup"},
+      {"name": "fresh rosemary", "quantity": 1.0, "unit": "tsp"},
+      {"name": "garlic", "quantity": 1.0, "unit": "clove"},
+      {"name": "black pepper", "quantity": 0.25, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Peel and dice sweet potato into small cubes.",
+      "Heat olive oil in a skillet over medium heat.",
+      "Add sweet potato and cook for 8 minutes, stirring occasionally.",
+      "Add bell pepper, garlic, and rosemary. Cook 5 more minutes.",
+      "Season with black pepper and serve."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "breakfast"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 180, "protein": 3, "sodium": 45, "potassium": 400, "phosphorus": 60},
+    "source": "seeded"
+  },
+  {
+    "name": "Ginger Chia Pudding",
+    "description": "Overnight chia pudding with warming ginger and fresh fruit.",
+    "ingredients": [
+      {"name": "chia seeds", "quantity": 3.0, "unit": "tbsp"},
+      {"name": "almond milk", "quantity": 1.0, "unit": "cup"},
+      {"name": "fresh ginger", "quantity": 0.5, "unit": "tsp"},
+      {"name": "maple syrup", "quantity": 1.0, "unit": "tsp"},
+      {"name": "strawberries", "quantity": 0.25, "unit": "cup"}
+    ],
+    "instructions": [
+      "Mix chia seeds, almond milk, grated ginger, and maple syrup in a jar.",
+      "Stir well to prevent clumping.",
+      "Refrigerate overnight or at least 4 hours.",
+      "Top with sliced strawberries before serving."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 0,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "breakfast"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 200, "protein": 6, "sodium": 100, "potassium": 220, "phosphorus": 180},
+    "source": "seeded"
+  },
+  {
+    "name": "Avocado Egg Cups",
+    "description": "Baked eggs in avocado halves with anti-inflammatory spices.",
+    "ingredients": [
+      {"name": "avocado", "quantity": 1.0, "unit": "whole"},
+      {"name": "eggs", "quantity": 2.0, "unit": "whole"},
+      {"name": "ground turmeric", "quantity": 0.25, "unit": "tsp"},
+      {"name": "black pepper", "quantity": 0.125, "unit": "tsp"},
+      {"name": "fresh chives", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Preheat oven to 425F.",
+      "Halve avocado and remove pit. Scoop out a bit of flesh to widen the hole.",
+      "Place avocado halves in a muffin tin for stability.",
+      "Crack one egg into each avocado half.",
+      "Sprinkle with turmeric and pepper.",
+      "Bake 12-15 minutes until eggs are set. Garnish with chives."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 15,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "breakfast"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 350, "protein": 14, "sodium": 140, "potassium": 490, "phosphorus": 250},
+    "source": "seeded"
+  },
+  {
+    "name": "Blueberry Buckwheat Pancakes",
+    "description": "Fluffy gluten-free pancakes loaded with antioxidant-rich blueberries.",
+    "ingredients": [
+      {"name": "buckwheat flour", "quantity": 1.0, "unit": "cup"},
+      {"name": "almond milk", "quantity": 0.75, "unit": "cup"},
+      {"name": "egg", "quantity": 1.0, "unit": "whole"},
+      {"name": "blueberries", "quantity": 0.5, "unit": "cup"},
+      {"name": "baking powder", "quantity": 1.0, "unit": "tsp"},
+      {"name": "coconut oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "maple syrup", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Mix buckwheat flour and baking powder in a bowl.",
+      "Whisk almond milk and egg together, then combine with dry ingredients.",
+      "Fold in blueberries gently.",
+      "Heat coconut oil in a skillet over medium heat.",
+      "Pour batter in small rounds, cook 2-3 minutes per side.",
+      "Serve with a drizzle of maple syrup."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "breakfast"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 280, "protein": 9, "sodium": 180, "potassium": 300, "phosphorus": 200},
+    "source": "seeded"
+  },
+  {
+    "name": "Turmeric Scrambled Eggs",
+    "description": "Simple scrambled eggs brightened with turmeric and fresh herbs.",
+    "ingredients": [
+      {"name": "eggs", "quantity": 3.0, "unit": "whole"},
+      {"name": "ground turmeric", "quantity": 0.5, "unit": "tsp"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tsp"},
+      {"name": "fresh parsley", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "black pepper", "quantity": 0.125, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Whisk eggs with turmeric and black pepper.",
+      "Heat olive oil in a non-stick skillet over medium-low heat.",
+      "Pour in eggs and gently stir with a spatula.",
+      "Cook until just set but still creamy, about 3 minutes.",
+      "Garnish with fresh parsley."
+    ],
+    "prep_time_minutes": 3,
+    "cook_time_minutes": 5,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "breakfast"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 250, "protein": 18, "sodium": 210, "potassium": 200, "phosphorus": 290},
+    "source": "seeded"
+  },
+  {
+    "name": "Golden Milk Overnight Oats",
+    "description": "Overnight oats infused with golden milk spices for an easy anti-inflammatory breakfast.",
+    "ingredients": [
+      {"name": "rolled oats", "quantity": 0.5, "unit": "cup"},
+      {"name": "almond milk", "quantity": 0.75, "unit": "cup"},
+      {"name": "ground turmeric", "quantity": 0.5, "unit": "tsp"},
+      {"name": "ground cinnamon", "quantity": 0.25, "unit": "tsp"},
+      {"name": "ground ginger", "quantity": 0.25, "unit": "tsp"},
+      {"name": "honey", "quantity": 1.0, "unit": "tsp"},
+      {"name": "raspberries", "quantity": 0.25, "unit": "cup"}
+    ],
+    "instructions": [
+      "Combine oats, almond milk, turmeric, cinnamon, ginger, and honey in a jar.",
+      "Stir well to combine all spices.",
+      "Cover and refrigerate overnight.",
+      "Top with raspberries before serving."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 0,
+    "difficulty": "beginner",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "dairy-free", "breakfast"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 230, "protein": 7, "sodium": 95, "potassium": 250, "phosphorus": 170},
+    "source": "seeded"
+  },
+  {
+    "name": "Salmon and Arugula Salad",
+    "description": "Grilled salmon over peppery arugula with lemon olive oil dressing.",
+    "ingredients": [
+      {"name": "salmon fillet", "quantity": 5.0, "unit": "oz"},
+      {"name": "arugula", "quantity": 2.0, "unit": "cups"},
+      {"name": "cucumber", "quantity": 0.5, "unit": "cup"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "fresh dill", "quantity": 1.0, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Season salmon with dill and black pepper.",
+      "Grill or pan-sear salmon for 4-5 minutes per side.",
+      "Arrange arugula and sliced cucumber on a plate.",
+      "Whisk olive oil and lemon juice for dressing.",
+      "Place salmon on salad and drizzle with dressing."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "difficulty": "intermediate",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 380, "protein": 32, "sodium": 100, "potassium": 480, "phosphorus": 350},
+    "source": "seeded"
+  },
+  {
+    "name": "Ginger Carrot Soup",
+    "description": "Creamy carrot soup with fresh ginger and a hint of coconut.",
+    "ingredients": [
+      {"name": "carrots", "quantity": 3.0, "unit": "medium"},
+      {"name": "fresh ginger", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "coconut milk", "quantity": 0.5, "unit": "cup"},
+      {"name": "vegetable broth (low sodium)", "quantity": 2.0, "unit": "cups"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "onion", "quantity": 0.5, "unit": "medium"},
+      {"name": "ground turmeric", "quantity": 0.5, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Heat olive oil in a pot. Saute diced onion until soft.",
+      "Add chopped carrots and grated ginger. Cook 3 minutes.",
+      "Pour in broth and turmeric. Bring to a boil.",
+      "Simmer 20 minutes until carrots are tender.",
+      "Blend until smooth, stir in coconut milk, and serve."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "difficulty": "intermediate",
+    "servings": 3,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 190, "protein": 3, "sodium": 180, "potassium": 380, "phosphorus": 70},
+    "source": "seeded"
+  },
+  {
+    "name": "Mediterranean Quinoa Bowl",
+    "description": "A colorful quinoa bowl with cucumber, olives, and herbs.",
+    "ingredients": [
+      {"name": "quinoa", "quantity": 0.5, "unit": "cup"},
+      {"name": "cucumber", "quantity": 0.5, "unit": "cup"},
+      {"name": "cherry tomatoes", "quantity": 0.5, "unit": "cup"},
+      {"name": "kalamata olives", "quantity": 5.0, "unit": "pieces"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "fresh mint", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Rinse quinoa and cook in 1 cup water for 15 minutes.",
+      "Fluff quinoa and let it cool slightly.",
+      "Dice cucumber and halve cherry tomatoes.",
+      "Toss quinoa with vegetables, olives, and mint.",
+      "Dress with olive oil and lemon juice."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 300, "protein": 9, "sodium": 200, "potassium": 400, "phosphorus": 220},
+    "source": "seeded"
+  },
+  {
+    "name": "Chicken Lettuce Wraps with Ginger",
+    "description": "Light and flavorful chicken lettuce wraps with a ginger-garlic sauce.",
+    "ingredients": [
+      {"name": "ground chicken", "quantity": 8.0, "unit": "oz"},
+      {"name": "butter lettuce leaves", "quantity": 6.0, "unit": "leaves"},
+      {"name": "fresh ginger", "quantity": 1.0, "unit": "tsp"},
+      {"name": "garlic", "quantity": 2.0, "unit": "cloves"},
+      {"name": "rice vinegar", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "sesame oil", "quantity": 1.0, "unit": "tsp"},
+      {"name": "green onion", "quantity": 2.0, "unit": "stalks"}
+    ],
+    "instructions": [
+      "Heat sesame oil in a skillet over medium-high heat.",
+      "Add ground chicken, breaking it up as it cooks.",
+      "Add minced ginger and garlic. Cook 2 minutes.",
+      "Stir in rice vinegar and cook until chicken is done.",
+      "Spoon filling into lettuce leaves and top with sliced green onion."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch", "low-potassium"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 260, "protein": 28, "sodium": 120, "potassium": 350, "phosphorus": 250},
+    "source": "seeded"
+  },
+  {
+    "name": "Roasted Cauliflower and Turmeric Soup",
+    "description": "Rich roasted cauliflower soup with golden turmeric and coconut cream.",
+    "ingredients": [
+      {"name": "cauliflower", "quantity": 1.0, "unit": "head"},
+      {"name": "olive oil", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "ground turmeric", "quantity": 1.0, "unit": "tsp"},
+      {"name": "onion", "quantity": 1.0, "unit": "medium"},
+      {"name": "garlic", "quantity": 3.0, "unit": "cloves"},
+      {"name": "vegetable broth (low sodium)", "quantity": 3.0, "unit": "cups"},
+      {"name": "coconut cream", "quantity": 0.25, "unit": "cup"}
+    ],
+    "instructions": [
+      "Preheat oven to 400F. Cut cauliflower into florets.",
+      "Toss with 1 tbsp olive oil and turmeric. Roast 25 minutes.",
+      "In a pot, saute onion and garlic in remaining olive oil.",
+      "Add roasted cauliflower and broth. Simmer 10 minutes.",
+      "Blend until smooth and stir in coconut cream."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 170, "protein": 5, "sodium": 150, "potassium": 420, "phosphorus": 80},
+    "source": "seeded"
+  },
+  {
+    "name": "Cucumber Avocado Rolls",
+    "description": "Fresh cucumber rolls filled with mashed avocado and herbs.",
+    "ingredients": [
+      {"name": "cucumber", "quantity": 1.0, "unit": "large"},
+      {"name": "avocado", "quantity": 1.0, "unit": "whole"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tsp"},
+      {"name": "fresh cilantro", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "red bell pepper", "quantity": 0.25, "unit": "cup"},
+      {"name": "black pepper", "quantity": 0.125, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Slice cucumber lengthwise into thin strips using a mandoline or peeler.",
+      "Mash avocado with lemon juice, cilantro, and pepper.",
+      "Julienne red bell pepper into thin strips.",
+      "Spread avocado mixture on cucumber strips.",
+      "Add bell pepper strips and roll up tightly.",
+      "Secure with toothpicks and serve."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 0,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch", "low-potassium"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 180, "protein": 3, "sodium": 15, "potassium": 450, "phosphorus": 60},
+    "source": "seeded"
+  },
+  {
+    "name": "Turkey and Vegetable Stir Fry",
+    "description": "Lean turkey stir fried with colorful vegetables and anti-inflammatory spices.",
+    "ingredients": [
+      {"name": "ground turkey", "quantity": 8.0, "unit": "oz"},
+      {"name": "broccoli florets", "quantity": 1.0, "unit": "cup"},
+      {"name": "red bell pepper", "quantity": 0.5, "unit": "cup"},
+      {"name": "fresh ginger", "quantity": 1.0, "unit": "tsp"},
+      {"name": "garlic", "quantity": 2.0, "unit": "cloves"},
+      {"name": "coconut aminos", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Heat olive oil in a wok or large skillet over high heat.",
+      "Brown ground turkey, breaking into small pieces.",
+      "Add ginger and garlic, cook 1 minute.",
+      "Add broccoli and bell pepper. Stir fry 4-5 minutes.",
+      "Drizzle with coconut aminos and toss to coat."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 12,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 310, "protein": 30, "sodium": 280, "potassium": 450, "phosphorus": 300},
+    "source": "seeded"
+  },
+  {
+    "name": "Zucchini Noodle Pesto Bowl",
+    "description": "Spiralized zucchini with a fresh basil and walnut pesto.",
+    "ingredients": [
+      {"name": "zucchini", "quantity": 2.0, "unit": "medium"},
+      {"name": "fresh basil", "quantity": 1.0, "unit": "cup"},
+      {"name": "walnuts", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "olive oil", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "garlic", "quantity": 1.0, "unit": "clove"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tsp"},
+      {"name": "cherry tomatoes", "quantity": 0.5, "unit": "cup"}
+    ],
+    "instructions": [
+      "Spiralize zucchini into noodles.",
+      "Blend basil, walnuts, olive oil, garlic, and lemon juice into pesto.",
+      "Lightly saute zucchini noodles in a skillet for 2 minutes.",
+      "Toss with pesto and halved cherry tomatoes.",
+      "Serve immediately."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 5,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "lunch"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 250, "protein": 6, "sodium": 20, "potassium": 480, "phosphorus": 130},
+    "source": "seeded"
+  },
+  {
+    "name": "Baked Salmon with Herb Crust",
+    "description": "Omega-3 rich salmon with a fresh herb and olive oil crust.",
+    "ingredients": [
+      {"name": "salmon fillet", "quantity": 6.0, "unit": "oz"},
+      {"name": "fresh parsley", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "fresh dill", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "garlic", "quantity": 2.0, "unit": "cloves"},
+      {"name": "lemon zest", "quantity": 1.0, "unit": "tsp"},
+      {"name": "black pepper", "quantity": 0.25, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Preheat oven to 375F.",
+      "Mix chopped parsley, dill, minced garlic, olive oil, lemon zest, and pepper.",
+      "Place salmon on a lined baking sheet.",
+      "Press herb mixture onto the top of the salmon.",
+      "Bake 15-18 minutes until salmon flakes easily."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 18,
+    "difficulty": "intermediate",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 380, "protein": 35, "sodium": 90, "potassium": 470, "phosphorus": 380},
+    "source": "seeded"
+  },
+  {
+    "name": "Turmeric Chicken Thighs",
+    "description": "Juicy chicken thighs marinated in turmeric, lemon, and garlic.",
+    "ingredients": [
+      {"name": "chicken thighs (boneless)", "quantity": 1.0, "unit": "lb"},
+      {"name": "ground turmeric", "quantity": 1.0, "unit": "tsp"},
+      {"name": "olive oil", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "garlic", "quantity": 3.0, "unit": "cloves"},
+      {"name": "black pepper", "quantity": 0.5, "unit": "tsp"},
+      {"name": "fresh thyme", "quantity": 1.0, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Mix turmeric, olive oil, lemon juice, minced garlic, pepper, and thyme.",
+      "Marinate chicken thighs for at least 30 minutes.",
+      "Preheat oven to 400F.",
+      "Place chicken on a baking sheet.",
+      "Bake 25-30 minutes until internal temp reaches 165F.",
+      "Let rest 5 minutes before serving."
+    ],
+    "prep_time_minutes": 35,
+    "cook_time_minutes": 30,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 290, "protein": 26, "sodium": 110, "potassium": 330, "phosphorus": 240},
+    "source": "seeded"
+  },
+  {
+    "name": "Garlic Shrimp with Zucchini",
+    "description": "Quick garlic shrimp served over sauteed zucchini noodles.",
+    "ingredients": [
+      {"name": "large shrimp (peeled)", "quantity": 8.0, "unit": "oz"},
+      {"name": "zucchini", "quantity": 2.0, "unit": "medium"},
+      {"name": "garlic", "quantity": 4.0, "unit": "cloves"},
+      {"name": "olive oil", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "red pepper flakes", "quantity": 0.125, "unit": "tsp"},
+      {"name": "fresh parsley", "quantity": 2.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Spiralize zucchini into noodles.",
+      "Heat 1 tbsp olive oil and lightly saute zucchini noodles for 2 minutes. Set aside.",
+      "Heat remaining oil and saute minced garlic and pepper flakes for 30 seconds.",
+      "Add shrimp and cook 2-3 minutes per side until pink.",
+      "Squeeze lemon juice over shrimp.",
+      "Serve shrimp over zucchini noodles, garnish with parsley."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "difficulty": "intermediate",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner", "low-potassium"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 280, "protein": 30, "sodium": 300, "potassium": 420, "phosphorus": 310},
+    "source": "seeded"
+  },
+  {
+    "name": "Coconut Curry Lentil Stew",
+    "description": "A warming lentil stew with coconut milk, turmeric, and ginger.",
+    "ingredients": [
+      {"name": "red lentils", "quantity": 0.5, "unit": "cup"},
+      {"name": "coconut milk", "quantity": 0.5, "unit": "cup"},
+      {"name": "vegetable broth (low sodium)", "quantity": 2.0, "unit": "cups"},
+      {"name": "ground turmeric", "quantity": 1.0, "unit": "tsp"},
+      {"name": "fresh ginger", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "onion", "quantity": 1.0, "unit": "medium"},
+      {"name": "garlic", "quantity": 3.0, "unit": "cloves"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Heat olive oil in a pot. Saute diced onion and garlic until soft.",
+      "Add grated ginger and turmeric. Cook 1 minute.",
+      "Add lentils and broth. Bring to a boil.",
+      "Reduce heat and simmer 20 minutes until lentils are tender.",
+      "Stir in coconut milk and simmer 5 more minutes.",
+      "Season with black pepper and serve."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 30,
+    "difficulty": "intermediate",
+    "servings": 4,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 280, "protein": 12, "sodium": 160, "potassium": 450, "phosphorus": 200},
+    "source": "seeded"
+  },
+  {
+    "name": "Herb-Crusted Cod with Roasted Vegetables",
+    "description": "Flaky cod with a herb crust served alongside roasted root vegetables.",
+    "ingredients": [
+      {"name": "cod fillet", "quantity": 6.0, "unit": "oz"},
+      {"name": "fresh parsley", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "fresh thyme", "quantity": 1.0, "unit": "tsp"},
+      {"name": "olive oil", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "carrots", "quantity": 2.0, "unit": "medium"},
+      {"name": "zucchini", "quantity": 1.0, "unit": "medium"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Preheat oven to 400F.",
+      "Dice carrots and zucchini. Toss with 1 tbsp olive oil.",
+      "Spread vegetables on a baking sheet and roast 15 minutes.",
+      "Mix parsley, thyme, remaining olive oil, and lemon juice.",
+      "Place cod on the baking sheet with vegetables.",
+      "Press herb mixture onto cod and roast 12-15 more minutes."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 30,
+    "difficulty": "intermediate",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 350, "protein": 32, "sodium": 120, "potassium": 480, "phosphorus": 300},
+    "source": "seeded"
+  },
+  {
+    "name": "Stuffed Bell Peppers with Ground Turkey",
+    "description": "Colorful bell peppers stuffed with seasoned turkey and cauliflower rice.",
+    "ingredients": [
+      {"name": "bell peppers", "quantity": 4.0, "unit": "whole"},
+      {"name": "ground turkey", "quantity": 1.0, "unit": "lb"},
+      {"name": "cauliflower rice", "quantity": 1.0, "unit": "cup"},
+      {"name": "onion", "quantity": 0.5, "unit": "medium"},
+      {"name": "garlic", "quantity": 2.0, "unit": "cloves"},
+      {"name": "ground cumin", "quantity": 0.5, "unit": "tsp"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "fresh cilantro", "quantity": 2.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Preheat oven to 375F.",
+      "Cut tops off bell peppers and remove seeds.",
+      "Brown turkey in a skillet with olive oil, onion, and garlic.",
+      "Add cauliflower rice and cumin. Cook 3 minutes.",
+      "Stuff peppers with turkey mixture.",
+      "Place in a baking dish, cover with foil, and bake 30 minutes.",
+      "Garnish with cilantro before serving."
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 40,
+    "difficulty": "advanced",
+    "servings": 4,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 320, "protein": 28, "sodium": 150, "potassium": 480, "phosphorus": 280},
+    "source": "seeded"
+  },
+  {
+    "name": "Pan-Seared Trout with Lemon Butter",
+    "description": "Crispy-skinned trout finished with a lemon and herb butter.",
+    "ingredients": [
+      {"name": "trout fillet", "quantity": 6.0, "unit": "oz"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "garlic", "quantity": 2.0, "unit": "cloves"},
+      {"name": "fresh thyme", "quantity": 1.0, "unit": "tsp"},
+      {"name": "capers", "quantity": 1.0, "unit": "tsp"},
+      {"name": "black pepper", "quantity": 0.25, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Pat trout dry and season with black pepper.",
+      "Heat olive oil in a skillet over medium-high heat.",
+      "Place trout skin-side down and cook 4 minutes without moving.",
+      "Flip and cook 2 more minutes.",
+      "Add garlic, thyme, capers, and lemon juice to the pan.",
+      "Spoon pan sauce over trout and serve."
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "difficulty": "advanced",
+    "servings": 1,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dinner"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 340, "protein": 30, "sodium": 180, "potassium": 460, "phosphorus": 350},
+    "source": "seeded"
+  },
+  {
+    "name": "Roasted Sweet Potato and Kale Bowl",
+    "description": "A nourishing bowl of roasted sweet potatoes, massaged kale, and tahini dressing.",
+    "ingredients": [
+      {"name": "sweet potato", "quantity": 1.0, "unit": "large"},
+      {"name": "kale", "quantity": 2.0, "unit": "cups"},
+      {"name": "tahini", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "ground cumin", "quantity": 0.5, "unit": "tsp"},
+      {"name": "pumpkin seeds", "quantity": 1.0, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Preheat oven to 400F.",
+      "Cube sweet potato, toss with olive oil and cumin. Roast 25 minutes.",
+      "Remove kale stems and chop leaves. Massage with a squeeze of lemon.",
+      "Whisk tahini with remaining lemon juice and 1 tbsp water for dressing.",
+      "Assemble bowl with kale, roasted sweet potato, and pumpkin seeds.",
+      "Drizzle with tahini dressing."
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "difficulty": "advanced",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 320, "protein": 8, "sodium": 60, "potassium": 490, "phosphorus": 170},
+    "source": "seeded"
+  },
+  {
+    "name": "Slow Cooker Anti-Inflammatory Chicken Stew",
+    "description": "A comforting slow-cooked stew packed with anti-inflammatory vegetables and spices.",
+    "ingredients": [
+      {"name": "chicken breast", "quantity": 1.0, "unit": "lb"},
+      {"name": "sweet potato", "quantity": 1.0, "unit": "large"},
+      {"name": "carrots", "quantity": 2.0, "unit": "medium"},
+      {"name": "celery", "quantity": 2.0, "unit": "stalks"},
+      {"name": "ground turmeric", "quantity": 1.0, "unit": "tsp"},
+      {"name": "fresh ginger", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "vegetable broth (low sodium)", "quantity": 3.0, "unit": "cups"},
+      {"name": "olive oil", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "fresh thyme", "quantity": 1.0, "unit": "tsp"}
+    ],
+    "instructions": [
+      "Dice sweet potato, carrots, and celery.",
+      "Place chicken breast in slow cooker.",
+      "Add all vegetables, turmeric, ginger, thyme, and broth.",
+      "Cook on low for 6-8 hours or high for 3-4 hours.",
+      "Shred chicken with two forks.",
+      "Stir well and serve."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 240,
+    "difficulty": "advanced",
+    "servings": 6,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 5,
+    "nutrition": {"calories": 250, "protein": 24, "sodium": 200, "potassium": 450, "phosphorus": 230},
+    "source": "seeded"
+  },
+  {
+    "name": "Salmon Cakes with Dill Sauce",
+    "description": "Pan-fried salmon cakes served with a creamy dairy-free dill sauce.",
+    "ingredients": [
+      {"name": "canned salmon (low sodium)", "quantity": 7.0, "unit": "oz"},
+      {"name": "egg", "quantity": 1.0, "unit": "whole"},
+      {"name": "almond flour", "quantity": 0.25, "unit": "cup"},
+      {"name": "green onion", "quantity": 2.0, "unit": "stalks"},
+      {"name": "fresh dill", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": 1.0, "unit": "tbsp"},
+      {"name": "olive oil", "quantity": 2.0, "unit": "tbsp"},
+      {"name": "coconut yogurt", "quantity": 0.25, "unit": "cup"}
+    ],
+    "instructions": [
+      "Drain salmon and flake into a bowl.",
+      "Mix with egg, almond flour, sliced green onion, and half the dill.",
+      "Form into 4 patties.",
+      "Heat olive oil in a skillet and cook patties 3-4 minutes per side.",
+      "Mix coconut yogurt with remaining dill and lemon juice for sauce.",
+      "Serve salmon cakes with dill sauce."
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 10,
+    "difficulty": "advanced",
+    "servings": 2,
+    "tags": ["anti-inflammatory", "kidney-friendly", "low-sodium", "gluten-free", "dairy-free", "dinner"],
+    "autoimmune_score": 4,
+    "nutrition": {"calories": 380, "protein": 28, "sodium": 350, "potassium": 400, "phosphorus": 370},
+    "source": "seeded"
+  }
+]
