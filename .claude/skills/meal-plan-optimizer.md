@@ -35,18 +35,25 @@ JOIN recipes r ON dl.recipe_id = r.id
 WHERE dl.date_cooked >= date('now', '-30 days');
 ```
 
-5. **Analyze and adjust weights based on these rules:**
+5. **Query food preferences and entries counts** to gauge preference data volume:
+
+```sql
+SELECT COUNT(*) as pref_count FROM food_preferences;
+SELECT COUNT(*) as entry_count FROM food_entries;
+```
+
+6. **Analyze and adjust weights based on these rules:**
 
    - **Autoimmune score weight:** If the user's health_score_trend is "declining", increase `autoimmune_score` weight by 0.05 (to push healthier recipes). If "improving", keep it steady or decrease by 0.02 (user is already doing well).
    - **User rating history weight:** If the user's average rating is below 3.5, increase `user_rating_history` by 0.05 (lean more on what they actually liked). If above 4.0, decrease by 0.02 (they like most things, so other factors matter more).
-   - **Ingredient preference weight:** If `disliked_ingredients` has more than 5 entries, increase `ingredient_preference` by 0.05 (the user is picky, so respect their preferences). Otherwise keep steady.
+   - **Ingredient preference weight (preference_match):** Consider the total number of food preferences and food entries alongside disliked ingredients. If `disliked_ingredients` has more than 5 entries, increase `ingredient_preference` by 0.05 (the user is picky, so respect their preferences). Additionally, if the combined count of food preferences and food entries exceeds 10, increase `ingredient_preference` by an extra 0.03 (more preference data means higher confidence in taste matching). Otherwise keep steady.
    - **Cuisine match weight:** If the user has clear cuisine preferences (preferred list has entries and avoided list has entries), increase `cuisine_match` by 0.05. If no clear pattern, decrease by 0.02.
    - **Cooking time fit weight:** If `prefers_quick_meals` is true and average total time for top-rated dishes is under 30 minutes, increase `cooking_time_fit` by 0.05. Otherwise keep steady.
    - **Variety bonus weight:** If adherence is below 60%, increase `variety_bonus` by 0.03 (the user might be bored, so suggest more variety). If above 80%, decrease by 0.02 (they are happy with current selections).
 
-6. **Normalize weights** so they sum to exactly 1.0. After all adjustments, divide each weight by the total sum of all weights.
+7. **Normalize weights** so they sum to exactly 1.0. After all adjustments, divide each weight by the total sum of all weights.
 
-7. **Write the updated weights** to `backend/app/data/recommendation_weights.json` (create the `data/` directory if it does not exist):
+8. **Write the updated weights** to `backend/app/data/recommendation_weights.json` (create the `data/` directory if it does not exist):
 
 ```json
 {
@@ -74,7 +81,7 @@ WHERE dl.date_cooked >= date('now', '-30 days');
 }
 ```
 
-8. **Print a summary** to the console showing: each weight before and after adjustment, what adjustments were made and why, and confirmation that weights sum to 1.0.
+9. **Print a summary** to the console showing: each weight before and after adjustment, what adjustments were made and why, and confirmation that weights sum to 1.0.
 
 ## Notes
 

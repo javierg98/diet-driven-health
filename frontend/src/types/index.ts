@@ -43,9 +43,9 @@ export interface Recipe {
 }
 
 export interface DayPlan {
-  breakfast: number;
-  lunch: number;
-  dinner: number;
+  breakfast: number | null;
+  lunch: number | null;
+  dinner: number | null;
 }
 
 export interface MealPlan {
@@ -78,4 +78,61 @@ export interface GroceryList {
   meal_plan_id: number;
   items: GroceryItem[];
   total_estimated_cost: number;
+}
+
+export interface FoodEntry {
+  id: number;
+  user_id: number;
+  description: string;
+  dish_name: string;
+  detected_ingredients: string[];
+  created_at: string;
+}
+
+export interface FoodPreference {
+  id: number;
+  user_id: number;
+  type: 'like' | 'dislike';
+  value: string;
+  category: string;
+  created_at: string;
+}
+
+export interface FoodSubmissionInput {
+  text: string;
+  submission_type?: 'recipe' | 'past_meals' | 'likes' | 'dislikes' | null;
+}
+
+export interface FoodSubmissionResult {
+  detected_type: string;
+  recipes: Omit<Recipe, 'id'>[];
+  entries: { description: string; dish_name: string; detected_ingredients: string[] }[];
+  preferences: { type: string; value: string; category: string }[];
+}
+
+export interface MealPlanGenerate {
+  week_start: string;
+  meal_types?: string[];
+  cooking_sessions?: number | null;
+  weekly_budget?: number | null;
+  batch_cooking?: boolean;
+}
+
+export interface SkillResults {
+  user_preferences: Record<string, unknown> | null;
+  user_memory: Record<string, unknown> | null;
+  recommendation_weights: Record<string, unknown> | null;
+}
+
+export interface WeeklyScore {
+  week: string;
+  average: number;
+  count: number;
+}
+
+export interface HealthTrend {
+  weekly_scores: WeeklyScore[];
+  overall_average: number;
+  total_logs: number;
+  adherence_percent: number;
 }

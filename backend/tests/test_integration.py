@@ -50,3 +50,74 @@ def test_full_workflow(client, db):
     }, headers=headers)
     assert parsed.status_code == 200
     assert parsed.json()["name"] == "My Recipe"
+
+
+def _register_and_login(client):
+    client.post("/api/auth/register", json={
+        "username": "javier", "password": "testpass123",
+    })
+    resp = client.post("/api/auth/login", data={
+        "username": "javier", "password": "testpass123",
+    })
+    return {"Authorization": f"Bearer {resp.json()['access_token']}"}
+
+
+def test_v2_full_workflow(client, db):
+    """Test the v2 workflow: register, preferences, meal plan with goals, log dish, health trend."""
+    _seed_recipes(db)
+    headers = _register_and_login(client)
+
+    # Submit likes
+    resp = client.post("/api/food/save", json={
+        "detected_type": "likes",
+        "recipes": [],
+        "entries": [],
+        "preferences": [
+            {"type": "like", "value": "salmon", "category": "ingredient"},
+            {"type": "like", "value": "rice", "category": "ingredient"},
+        ],
+    }, headers=headers)
+    assert resp.status_code == 201
+
+    # Submit dislikes
+    resp = client.post("/api/food/save", json={
+        "detected_type": "dislikes",
+        "recipes": [],
+        "entries": [],
+        "preferences": [
+            {"type": "dislike", "value": "liver", "category": "ingredient"},
+        ],
+    }, headers=headers)
+    assert resp.status_code == 201
+
+    # Generate meal plan with goals
+    resp = client.post("/api/meal-plans/generate", json={
+        "week_start": "2026-03-16",
+        "meal_types": ["lunch", "dinner"],
+        "cooking_sessions": 5,
+    }, headers=headers)
+    assert resp.status_code == 201
+    plan = resp.json()
+    assert len(plan["days"]) == 7
+    for day in plan["days"]:
+        assert day["breakfast"] is None
+
+    # Log a dish
+    recipe_id = plan["days"][0]["lunch"]
+    resp = client.post("/api/dish-log", json={
+        "recipe_id": recipe_id,
+        "rating": 4,
+        "notes": "Great!",
+        "would_make_again": True,
+    }, headers=headers)
+    assert resp.status_code == 201
+
+    # Check health trend
+    resp = client.get("/api/admin/health-trend", headers=headers)
+    assert resp.status_code == 200
+    assert resp.json()["total_logs"] == 1
+
+    # Check preferences stored
+    resp = client.get("/api/food/preferences", headers=headers)
+    assert resp.status_code == 200
+    assert len(resp.json()) == 3

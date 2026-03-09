@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.database import get_db
+from app.models.food_preference import FoodPreference
 from app.models.meal_plan import MealPlan
 from app.models.profile import UserProfile
 from app.models.user import User
@@ -20,10 +21,23 @@ def create_meal_plan(
 ):
     profile = db.query(UserProfile).filter(UserProfile.user_id == current_user.id).first()
     skill_level = profile.skill_level if profile else "intermediate"
-    restrictions = profile.dietary_restrictions if profile else []
     goals = profile.health_goals if profile else []
 
-    days = generate_meal_plan(db, skill_level=skill_level, dietary_restrictions=restrictions, tags=goals)
+    prefs = db.query(FoodPreference).filter(FoodPreference.user_id == current_user.id).all()
+    likes = [p.value for p in prefs if p.type == "like"]
+    dislikes = [p.value for p in prefs if p.type == "dislike"]
+
+    days = generate_meal_plan(
+        db,
+        skill_level=skill_level,
+        tags=goals,
+        meal_types=req.meal_types,
+        cooking_sessions=req.cooking_sessions,
+        weekly_budget=req.weekly_budget,
+        batch_cooking=req.batch_cooking,
+        likes=likes,
+        dislikes=dislikes,
+    )
     plan = MealPlan(user_id=current_user.id, week_start=req.week_start, days=days)
     db.add(plan)
     db.commit()
@@ -63,12 +77,21 @@ def swap_meal(
         raise HTTPException(status_code=404, detail="Meal plan not found")
 
     days = list(plan.days)
-    all_ids = [days[d][m] for d in range(7) for m in ["breakfast", "lunch", "dinner"]]
+    all_ids = []
+    for d in days:
+        for m in ["breakfast", "lunch", "dinner"]:
+            rid = d.get(m)
+            if rid is not None:
+                all_ids.append(rid)
 
     profile = db.query(UserProfile).filter(UserProfile.user_id == current_user.id).first()
     skill_level = profile.skill_level if profile else "intermediate"
 
-    new_id = get_swap_recipe(db, excluded_ids=all_ids, skill_level=skill_level)
+    prefs = db.query(FoodPreference).filter(FoodPreference.user_id == current_user.id).all()
+    likes = [p.value for p in prefs if p.type == "like"]
+    dislikes = [p.value for p in prefs if p.type == "dislike"]
+
+    new_id = get_swap_recipe(db, excluded_ids=all_ids, skill_level=skill_level, likes=likes, dislikes=dislikes)
     if new_id is None:
         raise HTTPException(status_code=400, detail="No alternative recipes available")
 

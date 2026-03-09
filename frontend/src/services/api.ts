@@ -1,6 +1,8 @@
 import axios from 'axios';
 import type {
   User, Profile, Recipe, MealPlan, DishLog, GroceryList,
+  FoodSubmissionInput, FoodSubmissionResult, FoodPreference, FoodEntry,
+  MealPlanGenerate, SkillResults, HealthTrend,
 } from '../types';
 
 const api = axios.create({ baseURL: '/api' });
@@ -45,8 +47,8 @@ export const createRecipe = (data: Omit<Recipe, 'id'>) =>
   api.post<Recipe>('/recipes', data);
 
 // Meal Plans
-export const generateMealPlan = (weekStart: string) =>
-  api.post<MealPlan>('/meal-plans/generate', { week_start: weekStart });
+export const generateMealPlan = (data: MealPlanGenerate) =>
+  api.post<MealPlan>('/meal-plans/generate', data);
 export const getMealPlans = () => api.get<MealPlan[]>('/meal-plans');
 export const getMealPlan = (id: number) => api.get<MealPlan>(`/meal-plans/${id}`);
 export const swapMeal = (planId: number, dayIndex: number, mealType: string) =>
@@ -65,5 +67,21 @@ export const getGroceryList = (planId: number) =>
 // Upload
 export const parseRecipeText = (text: string) =>
   api.post<Recipe>('/upload/parse', { text });
+
+// Food Submission
+export const parseFoodSubmission = (data: FoodSubmissionInput) =>
+  api.post<FoodSubmissionResult>('/food/parse', data);
+export const saveFoodSubmission = (data: FoodSubmissionResult) =>
+  api.post('/food/save', data);
+export const getFoodPreferences = () =>
+  api.get<FoodPreference[]>('/food/preferences');
+export const getFoodEntries = () =>
+  api.get<FoodEntry[]>('/food/entries');
+
+// Admin
+export const getSkillResults = () =>
+  api.get<SkillResults>('/admin/skill-results');
+export const getHealthTrend = () =>
+  api.get<HealthTrend>('/admin/health-trend');
 
 export default api;

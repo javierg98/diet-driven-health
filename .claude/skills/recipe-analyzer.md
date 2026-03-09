@@ -18,18 +18,35 @@ FROM recipes
 WHERE source = 'personal';
 ```
 
-3. **Parse the data.** The `ingredients`, `tags`, and `nutrition` columns are JSON strings. Parse them with `json.loads()`.
+3. **Query food entries for detected ingredients:**
 
-4. **Analyze the following dimensions:**
+```sql
+SELECT id, name, ingredients, source_type, created_at
+FROM food_entries
+ORDER BY created_at DESC;
+```
 
-   - **Ingredient frequency:** Count how often each ingredient name appears across all personal recipes. Identify the top 20 most-used ingredients.
+4. **Query food preferences for explicit likes/dislikes:**
+
+```sql
+SELECT id, food_name, preference_type, notes, created_at
+FROM food_preferences
+ORDER BY created_at DESC;
+```
+
+5. **Parse the data.** The `ingredients`, `tags`, and `nutrition` columns are JSON strings. Parse them with `json.loads()`. Food entries and preferences provide additional signals for the taste profile analysis alongside personal recipes.
+
+6. **Analyze the following dimensions:**
+
+   - **Ingredient frequency:** Count how often each ingredient name appears across all personal recipes and food entries. Include ingredients detected in food entries alongside recipe ingredients. Identify the top 20 most-used ingredients.
+   - **Explicit preferences:** Incorporate food preferences (likes and dislikes) into the taste profile. Liked foods should boost related ingredient counts. Disliked foods should be flagged separately as ingredients to avoid.
    - **Cuisine types:** Infer cuisine categories from tags (e.g., "mexican", "mediterranean", "asian"). Count occurrences of each.
    - **Flavor profiles:** Look for flavor-indicating ingredients and tags. Group into categories: savory, spicy, sweet, acidic/tangy, umami, herbal/fresh. Count recipes that fall into each.
    - **Cooking complexity:** Tally recipes by difficulty level ("easy", "intermediate", "advanced"). Compute average total cook time (prep_time_minutes + cook_time_minutes).
    - **Autoimmune score distribution:** Count recipes at each autoimmune_score level (1-5).
    - **Nutritional tendencies:** If nutrition data is present, compute averages for calories, protein, carbs, fat, fiber across all personal recipes.
 
-5. **Write results** to `backend/app/data/user_preferences.json` (create the `data/` directory if it does not exist). Use the following JSON structure:
+7. **Write results** to `backend/app/data/user_preferences.json` (create the `data/` directory if it does not exist). Use the following JSON structure:
 
 ```json
 {
@@ -66,7 +83,7 @@ WHERE source = 'personal';
 }
 ```
 
-6. **Print a summary** to the console showing: total recipes analyzed, top 5 ingredients, preferred cuisine, average complexity, and average autoimmune score.
+8. **Print a summary** to the console showing: total recipes analyzed, top 5 ingredients, preferred cuisine, average complexity, and average autoimmune score.
 
 ## Notes
 

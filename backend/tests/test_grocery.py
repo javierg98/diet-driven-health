@@ -1,4 +1,4 @@
-from app.services.grocery import consolidate_ingredients, estimate_cost, STORE_SECTIONS
+from app.services.grocery import consolidate_ingredients, estimate_cost, STORE_SECTIONS, estimate_purchase_cost, PURCHASE_UNITS
 
 
 def test_consolidate_ingredients():
@@ -28,6 +28,33 @@ def test_estimate_cost():
 def test_store_sections():
     assert "produce" in STORE_SECTIONS
     assert "protein" in STORE_SECTIONS
+
+
+def test_purchase_units_has_common_items():
+    assert "strawberries" in PURCHASE_UNITS
+    assert "rice" in PURCHASE_UNITS
+    assert PURCHASE_UNITS["strawberries"]["cost"] > 0
+
+
+def test_estimate_purchase_cost_known_item():
+    items = [{"name": "strawberries", "quantity": 1, "unit": "cup"}]
+    cost = estimate_purchase_cost(items)
+    assert cost == PURCHASE_UNITS["strawberries"]["cost"]
+
+
+def test_estimate_purchase_cost_shared_ingredient():
+    items = [
+        {"name": "rice", "quantity": 1, "unit": "cup"},
+        {"name": "rice", "quantity": 2, "unit": "cup"},
+    ]
+    cost = estimate_purchase_cost(items)
+    assert cost == PURCHASE_UNITS["rice"]["cost"]
+
+
+def test_estimate_purchase_cost_unknown_item():
+    items = [{"name": "exotic_spice_xyz", "quantity": 2, "unit": "tbsp"}]
+    cost = estimate_purchase_cost(items)
+    assert cost > 0
 
 
 def test_grocery_api(client, db):

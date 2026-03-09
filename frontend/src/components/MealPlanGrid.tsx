@@ -10,7 +10,8 @@ const MEAL_TYPES = ['breakfast', 'lunch', 'dinner'] as const;
 const DAY_LABELS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 export default function MealPlanGrid({ plan, recipes, onSwap }: MealPlanGridProps) {
-  const getRecipeName = (recipeId: number) => {
+  const getRecipeName = (recipeId: number | null) => {
+    if (recipeId === null) return '—';
     return recipes[recipeId]?.name ?? `Recipe #${recipeId}`;
   };
 

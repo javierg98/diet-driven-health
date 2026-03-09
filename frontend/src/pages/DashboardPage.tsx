@@ -76,9 +76,9 @@ export default function DashboardPage() {
               {latestPlan.days.map((day, i) => (
                 <tr key={i} className="border-t">
                   <td className="px-3 py-2 font-medium">{dayNames[i]}</td>
-                  <td className="px-3 py-2">{recipes[day.breakfast]?.name || `Recipe #${day.breakfast}`}</td>
-                  <td className="px-3 py-2">{recipes[day.lunch]?.name || `Recipe #${day.lunch}`}</td>
-                  <td className="px-3 py-2">{recipes[day.dinner]?.name || `Recipe #${day.dinner}`}</td>
+                  <td className="px-3 py-2">{day.breakfast !== null ? (recipes[day.breakfast]?.name || `Recipe #${day.breakfast}`) : '—'}</td>
+                  <td className="px-3 py-2">{day.lunch !== null ? (recipes[day.lunch]?.name || `Recipe #${day.lunch}`) : '—'}</td>
+                  <td className="px-3 py-2">{day.dinner !== null ? (recipes[day.dinner]?.name || `Recipe #${day.dinner}`) : '—'}</td>
                 </tr>
               ))}
             </tbody>
