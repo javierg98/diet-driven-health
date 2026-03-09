@@ -120,3 +120,37 @@ def test_meal_plan_generate_defaults():
     assert req.cooking_sessions is None
     assert req.weekly_budget is None
     assert req.batch_cooking is False
+
+
+def test_create_meal_plan_with_goals(client, db):
+    _seed_recipes(db)
+    headers = _register_login_and_profile(client)
+    response = client.post("/api/meal-plans/generate", json={
+        "week_start": "2026-03-16",
+        "meal_types": ["lunch", "dinner"],
+        "cooking_sessions": 5,
+        "batch_cooking": False,
+    }, headers=headers)
+    assert response.status_code == 201
+    data = response.json()
+    assert len(data["days"]) == 7
+    for day in data["days"]:
+        assert day["breakfast"] is None
+
+
+def test_create_meal_plan_with_preferences(client, db):
+    _seed_recipes(db)
+    headers = _register_login_and_profile(client)
+    # Add food preferences
+    client.post("/api/food/save", json={
+        "detected_type": "likes",
+        "recipes": [],
+        "entries": [],
+        "preferences": [
+            {"type": "like", "value": "ingredient", "category": "ingredient"},
+        ],
+    }, headers=headers)
+    response = client.post("/api/meal-plans/generate", json={
+        "week_start": "2026-03-16",
+    }, headers=headers)
+    assert response.status_code == 201
