@@ -7,6 +7,8 @@ import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import RecipesPage from './pages/RecipesPage';
 import RecipeDetailPage from './pages/RecipeDetailPage';
+import MealPlansPage from './pages/MealPlansPage';
+import MealPlanDetailPage from './pages/MealPlanDetailPage';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean | null>(null);
@@ -31,7 +33,8 @@ function App() {
             <Layout>
               <Routes>
                 <Route path="/" element={<DashboardPage />} />
-                <Route path="/meal-plans" element={<div>Meal Plans (coming soon)</div>} />
+                <Route path="/meal-plans" element={<MealPlansPage />} />
+                <Route path="/meal-plans/:id" element={<MealPlanDetailPage />} />
                 <Route path="/recipes" element={<RecipesPage />} />
                 <Route path="/recipes/:id" element={<RecipeDetailPage />} />
                 <Route path="/history" element={<div>History (coming soon)</div>} />
