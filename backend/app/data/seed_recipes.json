@@ -2147,11 +2147,11 @@
     ],
     "autoimmune_score": 4,
     "nutrition": {
-      "calories": 39,
-      "protein": 0,
-      "sodium": 25,
-      "potassium": 3,
-      "phosphorus": 1
+      "calories": 450,
+      "protein": 35,
+      "sodium": 420,
+      "potassium": 350,
+      "phosphorus": 280
     },
     "source": "seeded"
   },
@@ -7854,11 +7854,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 31,
-      "protein": 0,
-      "sodium": 20,
-      "potassium": 3,
-      "phosphorus": 1
+      "calories": 120,
+      "protein": 3,
+      "sodium": 180,
+      "potassium": 350,
+      "phosphorus": 60
     },
     "source": "seeded"
   },
@@ -8544,11 +8544,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 46,
-      "protein": 0,
-      "sodium": 30,
-      "potassium": 3,
-      "phosphorus": 1
+      "calories": 310,
+      "protein": 18,
+      "sodium": 480,
+      "potassium": 250,
+      "phosphorus": 200
     },
     "source": "seeded"
   },
@@ -8989,11 +8989,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 39,
-      "protein": 0,
-      "sodium": 21,
-      "potassium": 56,
-      "phosphorus": 8
+      "calories": 95,
+      "protein": 3,
+      "sodium": 280,
+      "potassium": 450,
+      "phosphorus": 55
     },
     "source": "seeded"
   },
@@ -10210,11 +10210,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 38,
-      "protein": 0,
-      "sodium": 25,
-      "potassium": 0,
-      "phosphorus": 0
+      "calories": 280,
+      "protein": 4,
+      "sodium": 50,
+      "potassium": 200,
+      "phosphorus": 70
     },
     "source": "seeded"
   },
@@ -11510,11 +11510,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 46,
-      "protein": 0,
-      "sodium": 30,
-      "potassium": 3,
-      "phosphorus": 1
+      "calories": 250,
+      "protein": 30,
+      "sodium": 380,
+      "potassium": 420,
+      "phosphorus": 260
     },
     "source": "seeded"
   },
@@ -12628,11 +12628,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 46,
-      "protein": 2,
-      "sodium": 54,
-      "potassium": 25,
-      "phosphorus": 30
+      "calories": 320,
+      "protein": 14,
+      "sodium": 400,
+      "potassium": 180,
+      "phosphorus": 170
     },
     "source": "seeded"
   },
@@ -13257,11 +13257,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 15,
-      "protein": 0,
-      "sodium": 10,
-      "potassium": 0,
-      "phosphorus": 0
+      "calories": 80,
+      "protein": 1,
+      "sodium": 15,
+      "potassium": 120,
+      "phosphorus": 25
     },
     "source": "seeded"
   },
@@ -13317,11 +13317,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 38,
-      "protein": 0,
-      "sodium": 25,
-      "potassium": 0,
-      "phosphorus": 0
+      "calories": 220,
+      "protein": 5,
+      "sodium": 280,
+      "potassium": 100,
+      "phosphorus": 60
     },
     "source": "seeded"
   },
@@ -13816,11 +13816,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 42,
-      "protein": 0,
-      "sodium": 21,
-      "potassium": 48,
-      "phosphorus": 9
+      "calories": 110,
+      "protein": 5,
+      "sodium": 200,
+      "potassium": 450,
+      "phosphorus": 55
     },
     "source": "seeded"
   },
@@ -13859,11 +13859,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 15,
-      "protein": 0,
+      "calories": 200,
+      "protein": 4,
       "sodium": 10,
-      "potassium": 0,
-      "phosphorus": 0
+      "potassium": 50,
+      "phosphorus": 40
     },
     "source": "seeded"
   },
@@ -14194,11 +14194,11 @@
     ],
     "autoimmune_score": 3,
     "nutrition": {
-      "calories": 42,
-      "protein": 0,
-      "sodium": 21,
-      "potassium": 48,
-      "phosphorus": 9
+      "calories": 80,
+      "protein": 2,
+      "sodium": 350,
+      "potassium": 300,
+      "phosphorus": 45
     },
     "source": "seeded"
   },
