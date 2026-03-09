@@ -1,4 +1,5 @@
 from app.models.recipe import Recipe
+from app.schemas.meal_plan import MealPlanGenerate
 from app.services.recommender import generate_meal_plan
 
 
@@ -97,3 +98,25 @@ def test_swap_meal(client, db):
     assert response.status_code == 200
     new_recipe = response.json()["days"][0]["breakfast"]
     assert new_recipe != original_recipe
+
+
+def test_meal_plan_generate_with_goals():
+    req = MealPlanGenerate(
+        week_start="2026-03-09",
+        meal_types=["lunch", "dinner"],
+        cooking_sessions=4,
+        weekly_budget=75.0,
+        batch_cooking=True,
+    )
+    assert req.meal_types == ["lunch", "dinner"]
+    assert req.cooking_sessions == 4
+    assert req.weekly_budget == 75.0
+    assert req.batch_cooking is True
+
+
+def test_meal_plan_generate_defaults():
+    req = MealPlanGenerate(week_start="2026-03-09")
+    assert req.meal_types == ["breakfast", "lunch", "dinner"]
+    assert req.cooking_sessions is None
+    assert req.weekly_budget is None
+    assert req.batch_cooking is False
